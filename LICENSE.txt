@@ -216,6 +216,34 @@ injects, incorporates, embeds, links, reproduces, or otherwise includes
 material governed by a Third-Party License in the input or output, such
 third-party material remains subject to its applicable Third-Party License.
 
+SAFE HARBOR — LICENSE COPY FORMAT FOR OUTPUT OF A MODIFIED COMPILER. Where
+You use a Compiler that has been modified (by You or by another Person) to
+process input and produce output, and any obligation under Section 3(a)
+applies to that output or to the modified Compiler, You satisfy that
+obligation by providing a copy of this License in any format and through
+any medium that is reasonably calculated to make it available to
+recipients — regardless of the format or medium of the output itself, the
+modified Compiler, or the distribution as a whole. This may include, without
+limitation, a separate file, an embedded notice, a stable reference such as
+a URL, accompanying documentation, or any other reasonable means, whether or
+not that means matches the form of the output. This safe harbor addresses
+only the manner in which the License copy required by Section 3(a) is
+provided; it does not excuse compliance with Section 3(b) or otherwise
+narrow the scope of the exception set out earlier in this Section 4.
+
+SAFE HARBOR — RECIPIENTS OF AN ALREADY-MODIFIED COMPILER. If You receive a
+Compiler that has already been modified by another Person, and You use that
+Compiler, without further modification by You, to process input and produce
+output, You are not required to determine whether the resulting output is
+itself a Compiler under Section 1, provided that the input You process does
+not itself consist of, include, or incorporate the Source or Object form of
+a Component. This safe harbor applies only to output produced from input
+that is free of Component material in this sense; it does not apply to any
+output produced from input that does consist of, include, or incorporate
+such Component material, and it does not otherwise limit or expand the
+definition of Compiler in Section 1 or the exception set out earlier in this
+Section 4.
+
 
 5. SUBMISSION OF CONTRIBUTIONS
 
