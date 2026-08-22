@@ -1,5 +1,4 @@
-FREE COMPILER LICENSE
-
+GNERIC FREE COMPILER LICENSE
 
 1. DEFINITIONS
 
@@ -25,7 +24,7 @@ configuration files.
 translation of a Source form, including, but not limited to, compiled object
 code, generated documentation, and conversions to other media types.
 
-“Compiler” means any work that intentionally incorporates one or more
+"Compiler" means any work that intentionally incorporates one or more
 Components governed by this License as a functional part of its processing
 capability, and uses that Component to operate upon Source Form or other input
 to produce Object Form or other output, where the Component retains
@@ -34,6 +33,15 @@ is not a Compiler merely because it is processed by, produces, or
 interoperates with a Compiler, independently performs similar processing, or
 incorporates a Component only incidentally, without intentionally using that
 Component to provide the processing capability described above.
+
+**[AMENDED]** Modifications to the surrounding work in which a Component is
+incorporated — including changes to the Component's configuration, invocation,
+packaging, or integration — do not, by themselves, cause a work to cease being
+a Compiler, provided the Component's own core processing functionality has not
+been substantially altered. A work ceases to be a Compiler under this
+definition only where a modification has substantially altered the Component's
+own core processing functionality, and not merely the wrapper or integration
+around it.
 
 "Component" means a work of authorship, whether in Source or Object form, made
 available under this License, as indicated by a copyright or other licensing
@@ -45,6 +53,14 @@ editorial revisions, annotations, elaborations, or other modifications, taken
 as a whole, represent an original work of authorship. Derivative Works do not
 include works that remain separable from, or that merely link or bind by name
 to, the interfaces of a Component, the Compiler, or a Derivative Work.
+For purposes of this definition, "merely link or bind by name"
+includes invoking a Component's documented public interfaces through function
+calls, method calls, dynamic or static linking, remote procedure calls,
+subprocess invocation, or equivalent mechanisms, without copying, embedding,
+or reproducing the Component's Source form and without extending or
+subclassing any non-interface (internal) portion of the Component. It does
+not include incorporating a Component's Source form directly into another
+work's Source form, or modifying a Component's internal implementation.
 
 "Rights" means the copyright and patent rights in a Component, Contribution,
 or the Compiler that a Rights Holder or Contributor owns or has authority to
@@ -182,13 +198,27 @@ expressly permitted to use, reproduce, modify, distribute, sublicense, and/or
 sell that output without complying with Section 3 with respect to that
 Component or portion thereof.
 
-This exception applies only to output that results from the Compiler's
-operation upon input that is not itself the Component's Source or Object form.
-It does not extend to any case where a Component, or a portion of a
-Component's Source or Object form, is copied, embedded, or redistributed
-through the Compiler's operation as a means of distributing that Component or
-portion thereof separately from its ordinary generated output. Material
-distributed in that manner remains subject to Section 3.
+**[AMENDED]** This exception applies only to output that results from the
+Compiler's operation upon input that is not itself the Component's Source or
+Object form. It does not extend to any portion of output in which a
+Component, or a portion of a Component's Source or Object form, appears in a
+manner satisfying both of the following:
+
+    (i) that portion is substantially complete and independently usable as
+        the Component, or as that portion of the Component, outside the
+        context of the specific output in which it appears; and
+
+    (ii) that portion is not itself required as functional processing logic
+         in order for the output to perform the output's own operation — for
+         example, because the same output could be produced, and would
+         operate correctly, with that portion of the Component omitted or
+         replaced.
+
+Material meeting both (i) and (ii) remains subject to Section 3, regardless of
+how it came to appear in the output. Material that fails either (i) or (ii) —
+because it is a non-functional fragment of the Component, or because it is
+integral to the output's own operation — is not subject to Section 3 solely by
+virtue of its origin in a Component.
 
 Nothing in this Section grants any rights in material that is not governed by
 this License or that a Rights Holder or Contributor does not own or have
@@ -225,6 +255,15 @@ free of Component material in this sense; it does not apply to any output
 produced from input that does consist of, include, or incorporate such
 Component material, and it does not otherwise limit or expand the definition
 of Compiler in Section 1 or the exception set out earlier in this Section 4.
+
+**[AMENDED]** For the avoidance of doubt, a Compiler modified only at the
+level described in the final sentence of the Compiler definition in Section 1
+(i.e., modifications that do not substantially alter a Component's own core
+processing functionality) remains a Compiler for purposes of this safe
+harbor. Where a modification has instead substantially altered a Component's
+core processing functionality, such that the work no longer meets the
+definition of Compiler in Section 1, this safe harbor does not apply, and
+this Section 4 does not extend to output of that work.
 
 
 5. SUBMISSION OF CONTRIBUTIONS
