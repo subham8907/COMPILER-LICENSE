@@ -24,10 +24,30 @@ configuration files.
 translation of a Source form, including, but not limited to, compiled object
 code, generated documentation, and conversions to other media types.
 
-"Compiler" means any work that contains or incorporates one or more
-Components governed by this License and that is capable of processing,
-transforming, translating, compiling, assembling, linking, generating, or
-otherwise operating upon input to produce output.
+“Compiler” means any work that contains or incorporates one or more Components governed by this License, where such Component is intentionally included in the work as part of the work’s processing functionality for the purpose of processing, transforming, translating, compiling, assembling, linking, generating, or otherwise operating upon Source Form or another form of input to produce Object Form or other output, and where the Component, in the form in which it is incorporated, has substantially the same functional capacity to perform such processing as the corresponding Compiler or processing component in its unmodified form.
+
+A Component is considered intentionally included for this purpose where the Component itself, or a modified or extended form of the Component, is used as a functional part of the work to perform or provide the processing capability described above. A modification or extension of a Compiler does not cease to be a Compiler merely because the modified Compiler supports additional Source Forms, languages, formats, operations, or other processing capabilities that were not supported by the Compiler in its unmodified form.
+
+For the avoidance of doubt, a work is not a Compiler merely because it:
+
+(i) is processed, transformed, compiled, assembled, linked, generated, or otherwise operated upon by a Compiler;
+
+(ii) is used as input to, or is produced as output by, a Compiler, including Object Form produced by an unmodified Compiler;
+
+(iii) implements, invokes, accesses, communicates with, interoperates with, or otherwise makes use of a Compiler without intentionally incorporating a Component governed by this License as a functional part of the processing capability described above;
+
+(iv) independently implements, reproduces, or performs a process, operation, algorithm, method, or function that is the same as, similar to, or substantially similar to that performed by a Compiler, without intentionally incorporating such a Component as a functional part of that processing capability; or
+
+(v) contains or incorporates a Component governed by this License only incidentally or immaterially, where that Component is not intentionally included to provide or perform the processing functionality described above.
+
+For example, if a Compiler originally processes Language A and produces Object Form, and the Compiler is modified to additionally process Language B, the modified work remains a Compiler because the licensed Compiler Component has been intentionally incorporated and modified to perform substantially the same kind of processing, notwithstanding the additional capability.
+
+Conversely, if an unmodified Compiler is merely used to process Source Form and produce Object Form, the resulting Object Form is not a Compiler merely because it was produced by that Compiler.
+
+Likewise, if a person independently creates or modifies a work to process its own Source Form into Object Form without intentionally incorporating a licensed Component as a functional part of that processing capability, the work is not a Compiler merely because it performs substantially the same processing as a Compiler.
+
+The use of the same or a similar processing technique, method, algorithm, or process, by itself, does not cause a work to be a Compiler.
+
 
 "Component" means a work of authorship, whether in Source or Object form,
 made available under this License, as indicated by a copyright or other
