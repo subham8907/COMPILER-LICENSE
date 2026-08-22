@@ -1,4 +1,4 @@
-FREE COMPILER LICENSE
+FREE COMPILER LICENSE 
 
 1. DEFINITIONS
 
@@ -7,15 +7,14 @@ forth in the sections below.
 
 "Rights Holder" means any Person, including any individual, company,
 association, body of persons, or Legal Entity, whether incorporated or
-unincorporated, that owns any Intellectual Property Rights in a Component,
-Contribution, or other material governed by this License, including copyright,
-patent rights, Industrial Designs, Layout-Designs (Topographies) of Integrated
-Circuits, and Trademarks.
+unincorporated, that owns any Rights in a Component, Contribution, or other
+material governed by this License, including copyright, patent rights, and
+Trademarks.
 
 "Granting the License" means the grant by a Rights Holder or Contributor of
-the rights and permissions specified in this License with respect to
-Intellectual Property Rights that such Rights Holder or Contributor owns or
-has authority to license, excluding Trademark Rights.
+the rights and permissions specified in this License with respect to Rights
+that such Rights Holder or Contributor owns or has authority to license,
+excluding Trademark Rights.
 
 "Source" form means the preferred form for making modifications, including,
 but not limited to, software source code, documentation source, and
@@ -44,8 +43,7 @@ Compiler, or Derivative Works thereof.
 
 "Rights" means the Intellectual Property Rights in a Component, Contribution,
 or the Compiler that a Rights Holder or Contributor owns or has authority to
-license, including copyright, patent rights, Industrial Designs, and
-Layout-Designs (Topographies) of Integrated Circuits, but excluding Trademark
+license, including copyright and patent rights, but excluding Trademark
 Rights.
 
 "Contribution" means any modification to a Component, or any Derivative Work,
@@ -70,7 +68,7 @@ For the purposes of this definition, "control" means:
 
 (ii)  ownership of fifty percent (50%) or more of the outstanding shares; or
 
-(iii) beneficial ownership of such entity.
+(iii) beneficial ownership of fifty percent (50%) or more of such entity.
 
 "Third-Party License" means a license governing specific material owned by a
 Rights Holder who is not Granting the License with respect to that material.
@@ -121,13 +119,11 @@ Rights Holder or Contributor does not own or have authority to license.
 
 If You institute or initiate any legal action or proceeding alleging that the
 Compiler, a Component, a Contribution, or a Derivative Work infringes any
-patent, Industrial Design, or Layout-Design (Topography) of Integrated Circuits
-owned or controlled by You, then the rights granted to You under this License
-with respect to patents, Industrial Designs, and Layout-Designs (Topographies)
-of Integrated Circuits, insofar as they apply to the specific Compiler,
-Component, Contribution, or Derivative Work that is the subject of such action
-or proceeding, shall terminate as of the date such action or proceeding is
-instituted or initiated.
+patent owned or controlled by You, then the rights granted to You under this
+License with respect to patents, insofar as they apply to the specific
+Compiler, Component, Contribution, or Derivative Work that is the subject of
+such action or proceeding, shall terminate as of the date such action or
+proceeding is instituted or initiated.
 
 Such termination shall not terminate, affect, or otherwise limit any
 copyright rights granted to You under this License, nor any rights granted to
@@ -173,6 +169,15 @@ included in such output as a result of the Compiler's operation, You are
 expressly permitted to use, reproduce, modify, distribute, sublicense, and/or
 sell that output without complying with Section 3 with respect to that
 Component or portion thereof.
+
+This exception applies only to output that results from the Compiler's
+operation upon input that is not itself the Component's Source or Object
+form. It does not extend to any case where a Component, or a portion of a
+Component's Source or Object form, is copied, embedded, or redistributed
+substantially unchanged through the Compiler's operation as a means of
+distributing that Component or portion thereof separately from its ordinary
+generated output. Material distributed in that manner remains subject to
+Section 3.
 
 Nothing in this Section grants any rights in material that is not governed by
 this License or that a Rights Holder or Contributor does not own or have
