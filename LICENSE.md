@@ -1,6 +1,6 @@
-## **FREE COMPILER LICENSE**
+FREE COMPILER LICENSE
 
-## 1. DEFINITIONS
+1. DEFINITIONS
 
 "License" means this document, together with the terms and conditions set
 forth in the sections below.
@@ -66,7 +66,7 @@ that control, are controlled by, or are under common control with that entity.
 For the purposes of this definition, "control" means:
 
 (i)   the power, direct or indirect, to cause the direction or management of
-such entity, whether by contract or otherwise;
+      such entity, whether by contract or otherwise;
 
 (ii)  ownership of fifty percent (50%) or more of the outstanding shares; or
 
@@ -75,22 +75,25 @@ such entity, whether by contract or otherwise;
 "Third-Party License" means a license governing specific material owned by a
 Rights Holder who is not Granting the License with respect to that material.
 
-“Distribute” means to make available to any person other than You, through any medium.
+"Distribute" means to make the material available to any person other than
+You, through any medium.
 
-## 2. GRANT OF RIGHTS
 
-### 2.1 RIGHTS OTHER THAN PATENT
+2. GRANT OF RIGHTS
+
+2.1 RIGHTS OTHER THAN PATENT
 
 Subject to the terms and conditions of this License and any applicable
 Third-Party License, each Rights Holder and Contributor Granting the License
 hereby grants You, to the extent of the Rights that such Rights Holder or
 Contributor owns or has authority to license, a worldwide, royalty-free,
-non-exclusive license under such Rights to use, reproduce, copy, modify,
-adapt, merge, publish, distribute, sublicense, and/or sell copies of the
-Compiler, Components, Contributions, and Derivative Works, and to prepare
-Derivative Works thereof.
+non-exclusive license under such Rights to use, reproduce, modify, adapt,
+merge, publish, distribute, sublicense, and/or sell copies of the Compiler,
+Components, Contributions, and Derivative Works, and to prepare Derivative
+Works thereof.
 
-### 2.2 PATENT LICENSE
+
+2.2 PATENT LICENSE
 
 Subject to the terms and conditions of this License and any applicable
 Third-Party License, each Rights Holder and Contributor Granting the License
@@ -100,14 +103,21 @@ non-exclusive, irrevocable (except as stated in Section 2.3) patent license to
 make, have made, use, offer to sell, sell, and import the Compiler,
 Components, Contributions, and Derivative Works, where such license applies
 only to those patent claims licensable by such Rights Holder or Contributor
-that are necessarily infringed by their Contribution(s) alone or by
-combination of their Contribution(s) with the Compiler or Component to which
-such Contribution(s) was submitted.
+that are necessarily infringed by:
+
+(a) in the case of a Rights Holder, a Component made available by that Rights
+    Holder under this License, alone or in combination with the Compiler into
+    which that Component is incorporated; or
+
+(b) in the case of a Contributor, that Contributor's Contribution(s), alone
+    or in combination with the Compiler or Component to which such
+    Contribution(s) was submitted.
 
 No Rights Holder or Contributor grants any right under this License that such
 Rights Holder or Contributor does not own or have authority to license.
 
-### 2.3 TERMINATION UPON INFRINGEMENT CLAIM
+
+2.3 TERMINATION UPON INFRINGEMENT CLAIM
 
 If You institute or initiate any legal action or proceeding alleging that the
 Compiler, a Component, a Contribution, or a Derivative Work infringes any
@@ -124,20 +134,29 @@ copyright rights granted to You under this License, nor any rights granted to
 You under this License with respect to any Compiler, Component, Contribution,
 or Derivative Work that is not the subject of such action or proceeding.
 
-## 3. CONDITIONS
+
+3. CONDITIONS
 
 When distributing the Compiler, a Component, or a Derivative Work governed by
 this License, You shall:
 
 (a) provide a copy of this License with the distribution, in any medium
-reasonably calculated to make the License available to recipients; and
+    reasonably calculated to make the License available to recipients; and
 
 (b) retain all copyright, attribution, patent, trademark, and other legal
-notices contained in or attached to the material being distributed, to
-the extent such notices apply to that material and have been provided by
-a Rights Holder or Contributor Granting the License.
+    notices contained in or attached to the material being distributed, to
+    the extent such notices apply to that material and have been provided by
+    a Rights Holder or Contributor Granting the License.
 
-## 4. COMPILER OUTPUT EXCEPTION
+You may add Your own Right Holder statement to Your modifications and may
+provide additional or different license terms and conditions for the use,
+reproduction, or distribution of Your modifications, or for any such
+Derivative Work as a whole, provided that Your use, reproduction, and
+distribution of the Compiler, Component, or other material governed by this
+License otherwise complies with the conditions stated in this License.
+
+
+4. COMPILER OUTPUT EXCEPTION
 
 When You use the Compiler to process, transform, translate, compile, assemble,
 link, generate, or otherwise operate upon input and thereby produce output,
@@ -146,8 +165,8 @@ the conditions of Section 3 shall not apply to that output merely because:
 (a) the output was produced or generated by the Compiler; or
 
 (b) the Compiler, as part of its ordinary operation, injects, incorporates,
-embeds, links, reproduces, or otherwise includes a Component or portion
-thereof in that output.
+    embeds, links, reproduces, or otherwise includes a Component or portion
+    thereof in that output.
 
 To the extent that a Component or portion thereof governed by this License is
 included in such output as a result of the Compiler's operation, You are
@@ -164,7 +183,8 @@ injects, incorporates, embeds, links, reproduces, or otherwise includes
 material governed by a Third-Party License in the input or output, such
 third-party material remains subject to its applicable Third-Party License.
 
-## 5. SUBMISSION OF CONTRIBUTIONS
+
+5. SUBMISSION OF CONTRIBUTIONS
 
 Unless You explicitly state otherwise in writing, any Contribution
 intentionally submitted by You to a Rights Holder Granting the License for
@@ -179,7 +199,8 @@ Notwithstanding the foregoing, nothing in this Section shall supersede or
 modify the terms of any separate license agreement You may have executed with
 the applicable Rights Holder regarding such Contributions.
 
-## 6. TRADEMARKS
+
+6. TRADEMARKS
 
 Except as necessary for reasonable and customary use in describing the origin
 of the Compiler, a Component, a Contribution, or a Derivative Work, and
@@ -188,7 +209,8 @@ any trademark, trade name, service mark, or product name is granted under this
 License unless expressly granted in writing by the applicable trademark
 owner.
 
-## 7. TERMINATION
+
+7. TERMINATION
 
 Except as provided in Section 2.3, this License and the rights granted to You
 under Section 2 shall terminate automatically with respect to the affected
@@ -209,14 +231,16 @@ compliance with the terms applicable to it.
 Sections 1, 2.3, 6, 7, 8, and 9 shall survive any termination to the extent
 necessary to give effect to their terms.
 
-## 8. SEVERABILITY
+
+8. SEVERABILITY
 
 If any provision of this License is held to be invalid, illegal, or
 unenforceable, that provision shall be enforced to the maximum extent
 permitted by applicable law, and the remaining provisions of this License
 shall remain in full force and effect.
 
-## 9. WARRANTIES AND LIABILITY
+
+9. WARRANTIES AND LIABILITY
 
 THE COMPILER, COMPONENTS, CONTRIBUTIONS, DERIVATIVE WORKS, AND ANY OUTPUT
 PRODUCED OR GENERATED BY THE COMPILER ARE PROVIDED "AS IS", WITHOUT WARRANTY
