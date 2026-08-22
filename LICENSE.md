@@ -79,7 +79,7 @@ Rights Holder who is not Granting the License with respect to that material.
 
 ## 2. GRANT OF RIGHTS
 
-### 2.1 COPYRIGHT LICENSE
+### 2.1 RIGHTS OTHER THAN PATENT
 
 Subject to the terms and conditions of this License and any applicable
 Third-Party License, each Rights Holder and Contributor Granting the License
