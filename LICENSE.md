@@ -75,6 +75,8 @@ such entity, whether by contract or otherwise;
 "Third-Party License" means a license governing specific material owned by a
 Rights Holder who is not Granting the License with respect to that material.
 
+“Distribute” means to make available to any person other than You, through any medium.
+
 ## 2. GRANT OF RIGHTS
 
 ### 2.1 COPYRIGHT LICENSE
