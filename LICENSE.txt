@@ -28,11 +28,14 @@ code, generated documentation, and conversions to other media types.
 Components governed by this License as a functional part of its processing
 capability and uses that Component to operate upon Source form or other input
 to produce Object form or other output, where the Component retains
-substantially the same functional capacity as in its unmodified form. A work
-is not a Compiler merely because it is processed by, produces, or interoperates
-with a Compiler, independently performs similar processing, or incorporates a
-Component only incidentally, without intentionally using that Component to
-provide the processing capability described above.
+substantially the same functional capacity as in its unmodified form. A
+standalone Component governed by this License may itself constitute a Compiler
+if, independently and without requiring incorporation into another work, it
+performs the processing described above. A work is not a Compiler merely
+because it is processed by, produces, or interoperates with a Compiler,
+independently performs similar processing, or incorporates a Component only
+incidentally, without intentionally using that Component to provide the
+processing capability described above.
 
 Modifications to the surrounding work in which a Component is incorporated—
 including changes to the Component's configuration, invocation, packaging, or
