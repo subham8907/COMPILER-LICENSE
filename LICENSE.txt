@@ -1,533 +1,135 @@
-GENERIC FREE COMPILER LICENSE
+GENERIC FREE COMPILER LICENSE (Streamlined)
 
 1. DEFINITIONS
 
-"License" means this document, together with the terms and conditions set
-forth in the sections below.
+"License" means this document.
 
-"Person" means any individual, company, association, body of persons, or Legal
-Entity, whether incorporated or unincorporated.
+"Person" means any individual, company, association, or other body of persons, incorporated or not.
 
-"Rights Holder" means any Person that owns any Rights or Trademark Rights in a
-Component, Contribution, or other material governed by this License.
+"Rights Holder" means any Person who owns Rights or Trademark Rights in a Component, Contribution, or other material governed by this License.
 
-"Granting the License" means the grant by a Rights Holder or Contributor of
-the rights and permissions specified in this License with respect to Rights
-that such Rights Holder or Contributor owns or has authority to license,
-excluding Trademark Rights.
+"Granting the License" means a Rights Holder's or Contributor's grant of the rights in this License over Rights it owns or has authority to license, excluding Trademark Rights.
 
-"Source" form means the preferred form for making modifications, including,
-but not limited to, software source code, documentation source, and
-configuration files.
+"Source" form means the preferred form for making modifications (source code, documentation source, configuration files, etc.).
 
-"Object" form means any form resulting from mechanical transformation or
-translation of a Source form, including, but not limited to, compiled object
-code, generated documentation, and conversions to other media types.
+"Object" form means any form resulting from mechanical transformation of Source form (compiled code, generated docs, media conversions, etc.).
 
-"Core Processing Functionality" means, with respect to a Component, the
-documented primary function of that Component to process Source form or other
-input into Object form or other output, as described in the Component's
-accompanying documentation provided by a Rights Holder or Contributor. It
-does not include ancillary features such as configuration, invocation,
-packaging, integration, logging, error handling, performance optimization,
-user interface, output formatting, or similar surrounding aspects.
+"Compiler" means a work that intentionally incorporates one or more Components as a functional part of its processing, using them to operate on input to produce output, where each Component retains substantially its original functional capacity. A work is not a Compiler merely by being processed by, producing, interoperating with, independently duplicating the function of, or incidentally including a Component.
 
-"Substantially Alter" means, with respect to a Component's Core Processing
-Functionality, to remove, disable, or change that functionality in a manner
-that causes the Component, when invoked with the same input and configuration
-as the unmodified Component, to fail to perform its documented primary
-processing function in a material respect. A modification that changes only
-configuration, invocation, packaging, integration, logging, error handling,
-performance, output formatting, or similar surrounding aspects does not
-Substantially Alter the Core Processing Functionality, even if it changes
-observable output, unless it prevents the Component from performing its
-documented primary processing function in a material respect.
+Changes to a Compiler's configuration, invocation, packaging, or integration do not, by themselves, end its status as a Compiler, so long as a Component's own core processing functionality is not substantially altered. Only a substantial alteration of that core functionality (not the surrounding wrapper) ends Compiler status.
 
-"Substantially Complete and Independently Usable" means, with respect to a
-portion of a Component appearing in output, that:
+"Component" means a work of authorship, in Source or Object form, made available under this License and marked as such.
 
-(a) the portion constitutes a copy, in Source or Object form, of all or
-substantially all of the Component as distributed under this License, such
-that a reasonably skilled person could extract that portion and use it to
-perform the Component's documented primary processing function without
-obtaining additional material from the Component; and
+"Derivative Works" means work based on or derived from a Component or the Compiler, where the modifications as a whole constitute an original work of authorship. It excludes works that remain separable from, or merely link or bind by name to, a Component's, the Compiler's, or a Derivative Work's interfaces.
 
-(b) the portion is not required for the output to perform its own primary
-function, meaning the output would continue to operate in the same material
-respects if that portion were omitted or replaced with an interface to a
-separately distributed copy of the Component.
+"Merely link or bind by name" includes calling a Component's documented public interfaces (function/method calls, linking, RPC, subprocess invocation, etc.) without copying its Source form and without extending or subclassing its internal (non-interface) portions. It excludes incorporating a Component's Source form into another work or modifying its internal implementation.
 
-"Compiler" means any work that intentionally incorporates one or more
-Components governed by this License as a functional part of its processing
-capability and uses that Component to operate upon Source form or other input
-to produce Object form or other output, where the Component retains its Core
-Processing Functionality. A work is not a Compiler merely because it is
-processed by, produces, or interoperates with a Compiler, independently
-performs similar processing, or incorporates a Component only incidentally,
-without intentionally using that Component to provide the processing
-capability described above.
+"Rights" means the copyright and patent rights a Rights Holder or Contributor owns or may license in a Component, Contribution, or the Compiler, excluding Trademark Rights.
 
-Modifications to the surrounding work in which a Component is incorporated—
-including changes to the Component's configuration, invocation, packaging, or
-integration—do not, by themselves, cause a work to cease being a Compiler,
-provided that the Component's Core Processing Functionality has not been
-Substantially Altered. A work ceases to be a Compiler under this definition
-only where a modification has Substantially Altered the Component's Core
-Processing Functionality, and not merely the wrapper or integration around it.
+"Trademark Rights" means rights in a trademark, trade name, service mark, or product name.
 
-"Component" means a work of authorship, whether in Source or Object form, made
-available under this License, as indicated by a copyright or other licensing
-notice included in or attached to that work.
+"Contribution" means any modification to a Component, or any Derivative Work, intentionally submitted to a Rights Holder for inclusion in a Component, unless clearly marked "Not a Contribution."
 
-"Derivative Works" means any work, whether in Source or Object form, that is
-based on or derived from a Component or the Compiler and for which the
-editorial revisions, annotations, elaborations, or other modifications, taken
-as a whole, represent an original work of authorship. Derivative Works do not
-include works that remain separable from, or that merely link or bind by name
-to, the interfaces of a Component, the Compiler, or a Derivative Work.
+"Contributor" means a Rights Holder, and any Person whose Contribution a Rights Holder has received and incorporated into a Component.
 
-For purposes of this definition, "merely link or bind by name" includes
-invoking a Component's documented public interfaces through function calls,
-method calls, dynamic or static linking, remote procedure calls, subprocess
-invocation, or equivalent mechanisms, without copying, embedding, or
-reproducing the Component's Source form and without extending or subclassing
-any non-interface (internal) portion of the Component. It does not include
-incorporating a Component's Source form directly into another work's Source
-form or modifying a Component's internal implementation.
+"You"/"Your" means the individual or Legal Entity exercising rights under this License.
 
-"Rights" means the copyright and patent rights in a Component, Contribution,
-or the Compiler that a Rights Holder or Contributor owns or has authority to
-license, excluding Trademark Rights.
+"Legal Entity" means an entity plus any entity it controls, is controlled by, or shares common control with, where "control" means the power to direct management (by contract or otherwise), or 50%+ ownership/beneficial ownership.
 
-"Trademark Rights" means any rights in a trademark, trade name, service mark,
-or product name.
+"Third-Party License" means a license governing material owned by a Person not Granting the License over that material.
 
-"Contribution" means any modification to a Component, or any Derivative Work,
-that is intentionally submitted to a Rights Holder for inclusion in a
-Component by any means of communication or through any medium, excluding any
-communication that is conspicuously marked, or otherwise designated in writing
-by the Person submitting it, as "Not a Contribution."
-
-"Contributor" means a Rights Holder and any Person on behalf of whom a
-Contribution has been received by a Rights Holder and subsequently
-incorporated into a Component.
-
-"You" or "Your" means the individual or Legal Entity exercising permissions
-granted by this License.
-
-"Legal Entity" means the union of the acting entity and all other entities
-that control, are controlled by, or are under common control with that entity.
-For purposes of this definition, "control" means:
-
-    (i) the power, direct or indirect, to cause the direction or management of
-        such entity, whether by contract or otherwise;
-
-    (ii) ownership of fifty percent (50%) or more of the outstanding shares of
-         such entity; or
-
-    (iii) beneficial ownership of fifty percent (50%) or more of such entity.
-
-"Third-Party License" means a license governing specific material that is
-owned by a Person who is not Granting the License with respect to that
-material.
-
-"Distribute" means to make material governed by this License available to any
-Person other than You, through any medium.
+"Distribute" means making material governed by this License available to anyone other than You, by any means.
 
 
 2. GRANT OF RIGHTS
 
-2.1 RIGHTS OTHER THAN PATENT
+2.1 Non-patent rights. Subject to this License and any Third-Party License, each Rights Holder/Contributor Granting the License grants You a worldwide, royalty-free, non-exclusive license, to the extent of the Rights it holds, to use, reproduce, modify, adapt, merge, publish, distribute, sublicense, sell, and prepare Derivative Works of the Compiler, Components, Contributions, and Derivative Works.
 
-Subject to the terms and conditions of this License and any applicable
-Third-Party License, each Rights Holder and Contributor Granting the License
-hereby grants You, to the extent of the Rights that such Rights Holder or
-Contributor owns or has authority to license, a worldwide, royalty-free,
-non-exclusive license under such Rights to use, reproduce, modify, adapt,
-merge, publish, distribute, sublicense, and/or sell copies of the Compiler,
-Components, Contributions, and Derivative Works, and to prepare Derivative
-Works thereof.
+2.2 Patent license. Subject to the same conditions, each Rights Holder/Contributor grants You a worldwide, royalty-free, non-exclusive, irrevocable (except under 2.3) patent license to make, use, sell, offer to sell, and import the Compiler, Components, Contributions, and Derivative Works, limited to claims necessarily infringed by (a) a Rights Holder's Component alone or combined with the Compiler it's incorporated into, or (b) a Contributor's Contribution(s) alone or combined with the Compiler/Component to which it was submitted.
 
-2.2 PATENT LICENSE
+No one grants rights it does not own or control.
 
-Subject to the terms and conditions of this License and any applicable
-Third-Party License, each Rights Holder and Contributor Granting the License
-hereby grants You, to the extent of the patent Rights that such Rights Holder
-or Contributor owns or has authority to license, a worldwide, royalty-free,
-non-exclusive, irrevocable (except as stated in Section 2.3) patent license to
-make, have made, use, offer to sell, sell, and import the Compiler, Components,
-Contributions, and Derivative Works, where such license applies only to those
-patent claims licensable by such Rights Holder or Contributor that are
-necessarily infringed by:
-
-    (a) in the case of a Rights Holder, a Component made available by that
-        Rights Holder under this License, alone or in combination with the
-        Compiler into which that Component is incorporated; or
-
-    (b) in the case of a Contributor, that Contributor's Contribution(s),
-        alone or in combination with the Compiler or Component to which such
-        Contribution(s) was submitted.
-
-No Rights Holder or Contributor grants any right under this License that such
-Rights Holder or Contributor does not own or have authority to license.
-
-2.3 TERMINATION UPON INFRINGEMENT CLAIM
-
-If You institute or initiate any legal action or proceeding alleging that the
-Compiler, a Component, a Contribution, or a Derivative Work infringes any
-patent owned or controlled by You, then the rights granted to You under this
-License with respect to patents, insofar as they apply to the specific
-Compiler, Component, Contribution, or Derivative Work that is the subject of
-such action or proceeding, shall terminate as of the date such action or
-proceeding is instituted or initiated.
-
-Such termination shall not terminate, affect, or otherwise limit any copyright
-rights granted to You under this License, nor any rights granted to You under
-this License with respect to any Compiler, Component, Contribution, or
-Derivative Work that is not the subject of such action or proceeding.
+2.3 Termination on patent suit. If You bring a patent infringement claim alleging the Compiler, a Component, a Contribution, or a Derivative Work infringes a patent You own, Your patent rights under this License terminate as of that filing, but only as to the specific material at issue, and only Your patent rights (not copyright rights, and not rights to unrelated material).
 
 
 3. CONDITIONS
 
-When distributing the Compiler, a Component, or a Derivative Work governed by
-this License, You shall:
+When distributing the Compiler, a Component, or a Derivative Work, You must:
 
-    (a) provide a copy of this License together with the distribution, in any
-        medium that reasonably ensures that the License is available to
-        recipients; and
+  (a) include a copy of this License in a form reasonably ensuring recipients can access it; and
+  (b) retain all copyright, attribution, patent, trademark, and other notices in the Source form being distributed, as provided by the relevant Rights Holder/Contributor. If a NOTICE file (Section 6.1) exists, include it whenever distributing Source or Object form.
 
-    (b) retain all copyright, attribution, patent, trademark, and other legal
-        notices contained in or attached to the Source form of the material
-        being distributed, to the extent such notices apply to that material
-        and have been provided by a Rights Holder or Contributor Granting the
-        License. Where a Rights Holder or Contributor has provided a NOTICE
-        file under Section 6.1, You shall include and distribute that NOTICE
-        file together with the material if You distribute Source or Object
-        form.
-
-You may add Your own Rights Holder statement to Your modifications and may
-provide additional or different license terms and conditions for the use,
-reproduction, or distribution of Your modifications, or for any such Derivative
-Work as a whole, provided that Your use, reproduction, and distribution of the
-Compiler, Component, or other material governed by this License otherwise
-complies with the conditions stated in this License.
+You may add Your own Rights Holder statement to Your modifications, and may apply additional/different terms to Your modifications or to a Derivative Work as a whole, provided Your own use/reproduction/distribution still complies with this Section.
 
 
 4. COMPILER OUTPUT EXCEPTION
 
-4.1 OUTPUT OF A COMPILER
+4.1 General rule. Using a Compiler to process, transform, translate, compile, assemble, link, or generate output does not, merely because the Compiler produced or embedded a Component in that output, subject the output to Section 3's conditions. This is subject to Sections 4.2 and 4.3 and does not affect Section 3 as applied to the Compiler, a Component, or a Derivative Work itself.
 
-When You use a Compiler to process, transform, translate, compile, assemble,
-link, generate, or otherwise operate upon input and thereby produce output,
-the conditions of Section 3 do not apply to that output merely because:
+4.2 Exception lost: deliberate inclusion in input. The exception doesn't apply where You deliberately place a Component's Source or Object form into the input You feed the Compiler; resulting output is then subject to Section 3, as if You'd distributed that Component directly, regardless of further processing.
 
-    (a) the output was produced or generated by the Compiler; or
+This does NOT apply where the material entered the input only through the automated/incidental operation of a build process, package manager, or dependency resolver, and not through Your deliberate act.
 
-    (b) the Compiler, as part of its ordinary operation, injects, incorporates,
-        embeds, links, reproduces, or otherwise includes a Component or
-        portion thereof in that output.
+It also does NOT apply where the material entered the input through Your use (default or configured) of a Compiler feature that is documented for configuring/selecting/controlling input or processing, provided You did not author that documentation yourself. It doesn't matter whether the documentation's author is a Rights Holder, a Contributor describing its own added feature, or a Rights Holder documenting a Contributor-added feature: any of these qualifies, regardless of attribution. This holds whether the Compiler You received was already modified by someone else, and regardless of Your role in building or documenting that feature.
 
-This exception is subject to Sections 4.2 and 4.3. This Section 4 governs
-only output produced by operation of the Compiler; it does not affect the
-conditions of Section 3 as applied to distribution of the Compiler, a
-Component, or a Derivative Work itself.
+4.3 Exception lost: Your own modification of the Compiler. Applies only if You modify the Compiler yourself (otherwise see 4.4).
 
-4.2 LOSS OF THE EXCEPTION -- DELIBERATE INCLUSION IN INPUT
+  (a) If Your change doesn't substantially alter a Component's core processing functionality (e.g., it only touches configuration, invocation, packaging, or integration), the work remains a Compiler and the exception still applies, subject to (c). Using a documented configuration/invocation/integration feature (per the same authorship rule as in 4.2) is not itself "Your modification" for this purpose.
 
-The exception in Section 4.1 does not apply to output produced from input
-that includes the Source or Object form of a Component as a result of a
-deliberate act by You to place that material into the input You cause the
-Compiler to process. Output produced from such input remains subject to
-Section 3 to the same extent as if You had directly distributed that
-Component, regardless of whether the Compiler also performs additional
-processing, transformation, or combination with other input in producing
-that output.
+  (b) If Your change DOES substantially alter a Component's core processing functionality, the work is no longer a Compiler, and the exception doesn't apply to its output.
 
-Input is not treated as including such material, and this Section 4.2 does
-not apply, where the material became part of the input solely through the
-automated or incidental operation of a build process, package manager,
-dependency resolver, or other tool invoked in the course of causing the
-Compiler to process that input, and not through a deliberate act by You to
-include that specific material.
+  (c) Even where (a) applies, the exception does not cover any portion of a Component appearing in the output that is both (i) substantially complete and independently usable outside that output's context, and (ii) not required as functional logic for the output to operate (i.e., the output would still work with it omitted or replaced). Such material remains subject to Section 3; material failing either test is not subject to Section 3 merely because it originated in a Component.
 
-Input is likewise not treated as including such material, and this Section
-4.2 does not apply, where the material became part of the input through Your
-use, in accordance with its accompanying documentation, of a feature that the
-Compiler makes available and documents for configuring, selecting, or
-controlling its input or processing -- whether You actively configured that
-feature or left it at its documented default. It does not matter who authored
-that documentation -- whether a Rights Holder, a Contributor, or any other
-Person -- provided that You did not author it. Documentation authored or
-co-authored by You does not qualify for purposes of this paragraph.
+Nothing here grants rights in material outside this License or beyond what a Rights Holder/Contributor may license.
 
-For the avoidance of doubt: documentation authored by a Rights Holder
-describing a feature that Rights Holder added qualifies under this paragraph;
-documentation authored by a Contributor describing a feature that Contributor
-added by way of a Contribution qualifies under this paragraph; and, where a
-Rights Holder incorporates a feature received by way of a Contribution from a
-Contributor and documents that feature, such documentation qualifies under
-this paragraph regardless of whether the Rights Holder or the originating
-Contributor is identified as its author. The mere fact that the Rights Holder,
-rather than the originating Contributor, authored the documentation of a
-feature received by way of Contribution does not cause that documentation to
-fail to qualify.
+4.4 Compilers You didn't modify. If You use an unmodified-by-You Compiler on input not covered by 4.2, the exception applies in full to the output, regardless of who You got the Compiler from, whether someone else had already modified it (even substantially), and whether You knew of any such modification. You need not determine whether the Compiler, or the output, itself qualifies as a Compiler, Component, or Derivative Work.
 
-This paragraph applies regardless of whether the Compiler as You received it
-was unmodified or had already been modified by another Person. For the
-avoidance of doubt, where You receive a Compiler from another Person with the
-feature already built in, and that feature is documented as described in this
-paragraph, Your use of that feature qualifies under this paragraph whether or
-not You had any role in building the feature into the Compiler or authoring
-its documentation.
+4.5 License-copy safe harbor. Where Section 3(a) applies to output or a modified Compiler because of 4.3, You may satisfy it by making a copy of this License available in any reasonable form (separate file, embedded notice, stable URL, accompanying documentation, etc.), regardless of the form of the output or distribution. This doesn't excuse Section 3(b), and doesn't otherwise change the Section 4 exception.
 
-4.3 LOSS OF THE EXCEPTION -- YOUR OWN MODIFICATION OF THE COMPILER
-
-This Section 4.3 applies only where You modify the Compiler. Where the
-Compiler was modified solely by another Person and not further modified by
-You, Section 4.4 applies instead.
-
-    (a) Where Your modification does not Substantially Alter the Component's
-        Core Processing Functionality -- for example, a change limited to
-        the Component's configuration, invocation, packaging, integration, or
-        other surrounding aspects -- the work remains a Compiler, and the
-        exception in Section 4.1 continues to apply, subject to paragraph (c).
-        For purposes of this paragraph (a), Your use, in accordance with its
-        accompanying documentation, of a configuration, invocation, or
-        integration feature that the Compiler makes available and documents
-        is not a modification by You, regardless of whether the Compiler as
-        You received it was unmodified or had already been modified by
-        another Person. It does not matter who authored that documentation --
-        whether a Rights Holder, a Contributor, or any other Person --
-        provided that You did not author it; documentation authored or
-        co-authored by You does not qualify for purposes of this paragraph.
-        For the avoidance of doubt, documentation authored by a Rights Holder
-        describing a feature that Rights Holder added qualifies;
-        documentation authored by a Contributor describing a feature that
-        Contributor added by way of a Contribution qualifies; and, where a
-        Rights Holder incorporates a feature received by way of a Contribution
-        from a Contributor and documents that feature, such documentation
-        qualifies regardless of whether the Rights Holder or the originating
-        Contributor is identified as its author. For the avoidance of doubt,
-        where You receive a Compiler from another Person with the feature
-        already built in, and that feature is documented as described in this
-        paragraph, Your use of that feature qualifies under this paragraph
-        whether or not You had any role in building the feature into the
-        Compiler or authoring its documentation.
-
-    (b) Where Your modification Substantially Alters the Component's Core
-        Processing Functionality, the work is no longer a Compiler, and the
-        exception in Section 4.1 does not apply to output produced by that
-        work.
-
-    (c) Where paragraph (a) applies, the exception does not extend to a
-        Component, or to a portion of a Component's Source or Object form,
-        that appears in the output in a manner satisfying both of the
-        following conditions:
-
-        (i)  that portion is Substantially Complete and Independently Usable
-             as the Component, or as that portion of the Component, outside
-             the context of the particular output in which it appears; and
-
-        (ii) that portion is not required as functional processing logic for
-             the output's own operation, including where the output could be
-             produced and operate correctly with that portion omitted or
-             replaced.
-
-        Material satisfying both conditions remains subject to Section 3.
-        Material failing either condition is not subject to Section 3 solely
-        by virtue of its origin in a Component.
-
-Nothing in this Section grants rights in material that is not governed by
-this License or that a Rights Holder or Contributor does not own or have
-authority to license.
-
-4.4 COMPILERS NOT MODIFIED BY YOU
-
-Where You use a Compiler without modifying it Yourself to process input to
-which Section 4.2 does not apply, the exception in Section 4.1 applies in
-full to the resulting output, including with respect to any Component
-material appearing in that output. This is the case regardless of:
-
-    (a) whether the Compiler was received directly from a Rights Holder or
-        Contributor, or from another Person;
-
-    (b) whether the Compiler had already been modified by another Person
-        before You received it, and regardless of the nature or extent of
-        that modification, including a modification that would Substantially
-        Alter the Component's Core Processing Functionality; and
-
-    (c) whether You knew or had reason to know of any such prior
-        modification.
-
-You are not required, for purposes of this Section 4.4, to determine whether
-the Compiler as You received it, or the resulting output, is itself a
-Compiler, a Component, a Derivative Work, or any other work governed by this
-License.
-
-4.5 LICENSE COPY SAFE HARBOR
-
-Where an obligation under Section 3(a) applies to output or to a Compiler
-because Section 4.3 applies, You satisfy that obligation by providing a copy
-of this License in any format and through any medium reasonably calculated to
-make it available to recipients, including without limitation a separate
-file, an embedded notice, a stable reference such as a URL, or accompanying
-documentation, whether or not that means matches the form of the output, the
-modified Compiler, or the distribution as a whole.
-
-This Section 4.5 concerns only the manner in which the copy of the License
-required by Section 3(a) is provided. It does not excuse compliance with
-Section 3(b) and does not narrow or expand the exception provided by Sections
-4.1 through 4.4.
-
-4.6 THIRD-PARTY MATERIAL
-
-If the Compiler contains, uses, processes, injects, incorporates, embeds,
-links, reproduces, or otherwise includes material governed by a Third-Party
-License in the input or output, that third-party material remains subject to
-its applicable Third-Party License.
+4.6 Third-party material. Any Third-Party-Licensed material that a Compiler uses, embeds, or includes in input or output remains subject to its own Third-Party License.
 
 
 5. SUBMISSION OF CONTRIBUTIONS
 
-Unless You explicitly state otherwise in writing, any Contribution
-intentionally submitted by You to a Rights Holder Granting the License for
-inclusion in a Component shall be submitted under the terms and conditions of
-this License, without additional terms or conditions.
+Unless You state otherwise in writing, any Contribution You submit to a Rights Holder is submitted under this License's terms, without additional conditions. You represent that You own or are authorized to grant the rights You're offering. This doesn't override any separate agreement You've signed with that Rights Holder about Contributions.
 
-You represent that, to the extent You Grant the License with respect to a
-Contribution, You own or have sufficient authority to grant the rights
-provided by this License with respect to that Contribution.
+By submitting a Contribution, You agree the receiving Rights Holder may document the resulting feature/functionality as part of the Component's or Compiler's official documentation (including for purposes of Sections 4.2/4.3(a)), without requiring You to write or maintain that documentation, and without limiting Your own right to separately document Your own added feature (which likewise qualifies under 4.2/4.3(a)).
 
-Notwithstanding the foregoing, nothing in this Section shall supersede or
-modify the terms of any separate license agreement You may have executed with
-the applicable Rights Holder regarding such Contributions.
+A Rights Holder maintaining the Compiler holds its Section 2 Rights in its own Component directly and need not rely on the 4.2/4.3(a) exceptions to use a documented feature of its own Compiler; nothing conditions those Rights on invoking Section 4. This applies only to a Compiler the Rights Holder makes publicly available; it doesn't extend to a private, non-public modification.
 
-By submitting a Contribution, a Contributor agrees that the Rights Holder to
-whom the Contribution is submitted, and who maintains the Component or
-Compiler into which the Contribution is incorporated, may document, or cause
-to be documented, the feature, modification, or functionality embodied in
-that Contribution as part of the accompanying documentation of the Component
-or Compiler, including for purposes of Section 4.2 and Section 4.3(a) of this
-License. This agreement does not require the Contributor to author or
-maintain that documentation themselves, and does not limit a Contributor's
-own ability to separately document a feature the Contributor added, which
-likewise qualifies under Section 4.2 and Section 4.3(a).
+Likewise, once a Contributor's feature is documented by the Rights Holder (or the Contributor's own documentation of it is accepted by the Rights Holder), that Contributor need not separately invoke Section 4.2/4.3(a) to use that documented feature. This applies only once such documentation exists; an undocumented feature, or one documented only by the Contributor without acceptance, remains governed by 4.2/4.3(a) as usual.
 
-The Rights Holder of the original Component who maintains the Compiler holds
-the Rights described in Section 2 with respect to that Component directly,
-and is not required to invoke, and need not rely upon, the exception
-described in Section 4.2 or Section 4.3(a) in order to use a documented
-feature of the Compiler with respect to that Component. Nothing in this
-License conditions that Rights Holder's rights under Section 2 on invoking
-Section 4.2 or Section 4.3(a), and nothing in this Section shall be read to
-limit or diminish those rights. This exemption applies only where the
-Compiler, in Source or Object form, is made available by that Rights Holder
-for public use. It does not extend to a private modification of the Compiler
-that the Rights Holder has made for the Rights Holder's own use and has not
-made available for public use.
-
-Similarly, once a feature that a Contributor added by way of a Contribution
-has been documented by the Rights Holder of the original Component, or
-documentation of that feature authored by the Contributor has been accepted
-by that Rights Holder as part of the accompanying documentation of the
-Component or Compiler, the Contributor is likewise not required to invoke,
-and need not separately rely upon, the exception described in Section 4.2 or
-Section 4.3(a) in order to use that documented feature. This paragraph
-applies only once such documentation exists and has been authored by that
-Rights Holder or accepted by that Rights Holder as described above; it does
-not exempt a Contributor's use of a feature that remains undocumented, nor a
-feature documented solely by the Contributor without such acceptance, which
-remain governed by Section 4.2 and Section 4.3(a) in the ordinary course.
-
-For the avoidance of doubt, the preceding two paragraphs address only the use
-of a documented feature by the Rights Holder or by the Contributor described
-above, and its relationship to Section 4.2 and Section 4.3(a); they do not
-exempt that Rights Holder or that Contributor from the conditions of Section
-3. Where that Rights Holder or that Contributor Distributes the Component
-or the Compiler, that Rights Holder or Contributor remains subject to Section
-3 -- including the obligations to provide a copy of this License and to
-retain applicable notices -- to the same extent as any other Person
-Distributing that material.
+None of this exempts a Rights Holder or Contributor from Section 3 obligations (License copy, notices) when Distributing the Component or Compiler; those obligations apply the same as to anyone else.
 
 
 6. NOTICE FILE AND CONTRIBUTOR NOTICES
 
-6.1 NOTICE FILE
+6.1 Each Rights Holder/Contributor Granting the License will maintain and make available a centralized NOTICE file with the Component/Compiler it distributes, which may consolidate the required copyright/attribution/patent/trademark notices in lieu of repeating them throughout the material.
 
-Each Rights Holder and Contributor Granting the License undertakes to maintain
-and make available, together with the Component or Compiler that such Rights
-Holder or Contributor makes available under this License, a centralized
-NOTICE text file.
-
-That NOTICE file may consolidate any copyright, attribution, patent,
-trademark, or other legal notice already contained in or attached to the
-Source form of the applicable material, in lieu of reproducing such notices
-individually throughout that material.
-
-6.2 CONTRIBUTOR NOTICE; NO REVOCATION
-
-A Contributor's failure to include, attach, or separately submit a legal
-notice with respect to a Contribution does not constitute, and shall not be
-construed as, a revocation, withdrawal, or limitation of the license and
-rights that Contributor has granted with respect to that Contribution under
-Section 2.
-
-The license and rights granted by a Contributor under this License remain in
-full force and effect regardless of whether that Contributor's notice appears
-in the NOTICE file described in Section 6.1 or elsewhere.
+6.2 A Contributor's failure to include a notice for a Contribution does not revoke, withdraw, or limit the license already granted for that Contribution under Section 2. That grant stays fully effective regardless of whether the Contributor's notice appears in the NOTICE file or elsewhere.
 
 
 7. TRADEMARKS
 
-Except as necessary for reasonable and customary use in identifying the origin
-of the Compiler, a Component, a Contribution, or a Derivative Work, and for
-reproducing notices required by this License, this License does not grant any
-Trademark Rights, including any right to use a trademark, trade name, service
-mark, or product name, unless expressly granted in writing by the Rights
-Holder of those Trademark Rights.
+This License grants no Trademark Rights, except as reasonably necessary to identify the origin of the Compiler, a Component, a Contribution, or a Derivative Work, and to reproduce required notices. Any broader trademark use requires the Trademark Rights Holder's written permission.
 
 
 8. TERMINATION
 
-Except as provided in Section 2.3, this License and the rights granted to You
-under Section 2 shall terminate automatically with respect to the affected
-material if You fail to comply with any condition of Section 3 and do not cure
-such failure within thirty (30) days after receiving written notice of the
-failure from a Rights Holder whose Rights are affected by that failure.
+Except as provided in Section 2.3, Your rights under Section 2 terminate automatically for the affected material if You breach any Section 3 condition and fail to cure within 30 days of written notice from an affected Rights Holder.
 
-Upon termination, You shall cease exercising the rights granted under this
-License with respect to the affected material, except to the extent otherwise
-permitted by applicable law or another applicable license.
+Upon termination, You must stop exercising the affected rights, except as otherwise permitted by law or another license. Termination doesn't undo licenses You already validly granted to third parties before termination, as long as those third parties remain compliant.
 
-Termination of Your rights under this License shall not terminate any license
-previously granted by You to a third party with respect to the Compiler, a
-Component, or a Derivative Work, provided that such license was granted while
-Your rights under this License were in force and the third party remains in
-compliance with the terms applicable to it.
-
-Sections 1, 2.3, 6, 7, 8, 9, and 10 shall survive any termination to the
-extent necessary to give effect to their terms.
+Sections 1, 2.3, 6, 7, 8, 9, and 10 survive termination as needed to remain effective.
 
 
 9. SEVERABILITY
 
-If any provision of this License is held to be invalid, illegal, or
-unenforceable, that provision shall be enforced to the maximum extent
-permitted by applicable law, and the remaining provisions of this License
-shall remain in full force and effect.
+If any provision is held invalid or unenforceable, it will be enforced to the maximum extent allowed, and the rest of the License remains in effect.
 
 
 10. WARRANTIES AND LIABILITY
 
-THE COMPILER, COMPONENTS, CONTRIBUTIONS, DERIVATIVE WORKS, AND ANY OUTPUT
-PRODUCED OR GENERATED BY THE COMPILER ARE PROVIDED "AS IS", WITHOUT WARRANTY
-OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE WARRANTIES
-OF TITLE, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND
-NONINFRINGEMENT.
+THE COMPILER, COMPONENTS, CONTRIBUTIONS, DERIVATIVE WORKS, AND ANY OUTPUT THEY PRODUCE ARE PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, INCLUDING TITLE, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
 
-TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL ANY
-RIGHTS HOLDER OR CONTRIBUTOR BE LIABLE FOR ANY CLAIM, LOSS, DAMAGE, OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM,
-OUT OF, OR IN CONNECTION WITH THE COMPILER, ANY COMPONENT, CONTRIBUTION,
-DERIVATIVE WORK, ANY OUTPUT PRODUCED OR GENERATED BY THE COMPILER, OR THE USE
-OF OR OTHER DEALINGS IN ANY OF THE FOREGOING.
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, NO RIGHTS HOLDER OR CONTRIBUTOR IS LIABLE FOR ANY CLAIM, LOSS, DAMAGE, OR OTHER LIABILITY (CONTRACT, TORT, OR OTHERWISE) ARISING FROM THE COMPILER, ANY COMPONENT, CONTRIBUTION, DERIVATIVE WORK, ANY OUTPUT THEY PRODUCE, OR ANY USE OR DEALING WITH ANY OF THE FOREGOING.
