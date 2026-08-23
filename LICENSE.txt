@@ -1,4 +1,3 @@
-
 GENERIC FREE COMPILER LICENSE
 
 1. DEFINITIONS
@@ -195,129 +194,128 @@ the conditions of Section 3 do not apply to that output merely because:
         embeds, links, reproduces, or otherwise includes a Component or
         portion thereof in that output.
 
-To the extent that a Component or portion thereof governed by this License is
-included in such output solely as a result of the Compiler's operation, You
-may use, reproduce, modify, distribute, sublicense, and/or sell that output
-without complying with Section 3 with respect to that Component or portion
-thereof.
+This exception is subject to Sections 4.2 and 4.3. This Section 4 governs
+only output produced by operation of the Compiler; it does not affect the
+conditions of Section 3 as applied to distribution of the Compiler, a
+Component, or a Derivative Work itself.
 
-4.2 INPUT LIMITATION
+4.2 LOSS OF THE EXCEPTION -- DELIBERATE INCLUSION IN INPUT
 
-The exception in Section 4.1 applies only where the input processed by the
-Compiler does not itself consist of, include, or incorporate the Source or
-Object form of a Component governed by this License.
+The exception in Section 4.1 does not apply to output produced from input
+that includes the Source or Object form of a Component as a result of a
+deliberate act by You to place that material into the input You cause the
+Compiler to process. Output produced from such input remains subject to
+Section 3 to the same extent as if You had directly distributed that
+Component, regardless of whether the Compiler also performs additional
+processing, transformation, or combination with other input in producing
+that output.
 
-The exception does not apply to a Component, or to a portion of a Component's
-Source or Object form, that appears in the output in a manner satisfying both
-of the following conditions:
+Input is not treated as including such material, and this Section 4.2 does
+not apply, where the material became part of the input solely through the
+automated or incidental operation of a build process, package manager,
+dependency resolver, or other tool invoked in the course of causing the
+Compiler to process that input, and not through a deliberate act by You to
+include that specific material.
 
-    (a) that portion is substantially complete and independently usable as the
-        Component, or as that portion of the Component, outside the context of
-        the particular output in which it appears; and
+Input is likewise not treated as including such material, and this Section
+4.2 does not apply, where the material became part of the input through Your
+use, in accordance with its accompanying documentation, of a feature that the
+Compiler makes available and documents for configuring, selecting, or
+controlling its input or processing -- whether You actively configured that
+feature or left it at its documented default. It does not matter who authored
+that documentation -- whether a Rights Holder, a Contributor, or any other
+Person -- provided that You did not author it. Documentation authored or
+co-authored by You does not qualify for purposes of this paragraph. This
+paragraph applies regardless of whether the Compiler as You received it was
+unmodified or had already been modified by another Person.
 
-    (b) that portion is not required as functional processing logic for the
-        output's own operation, including where the output could be produced
-        and operate correctly with that portion omitted or replaced.
+4.3 LOSS OF THE EXCEPTION -- YOUR OWN MODIFICATION OF THE COMPILER
 
-Material satisfying both conditions remains subject to Section 3, regardless
-of how that material came to appear in the output, regardless of whether the
-Compiler that produced it was modified or unmodified, and regardless of
-whether any safe harbor in Section 4.3 or 4.6 applies to the resulting output
-or to Your use of the Compiler. No safe harbor elsewhere in this Section 4
-shall be construed to exempt material satisfying both conditions of this
-Section 4.2 from Section 3.
+This Section 4.3 applies only where You modify the Compiler. Where the
+Compiler was modified solely by another Person and not further modified by
+You, Section 4.4 applies instead.
 
-Material that fails either condition because it is a non-functional fragment
-of the Component or because it is integral to the output's own operation is
-not subject to Section 3 solely by virtue of its origin in a Component.
+    (a) Where Your modification does not substantially alter the Component's
+        own core processing functionality -- for example, a change limited to
+        the Component's configuration, invocation, packaging, integration, or
+        other surrounding aspects -- the work remains a Compiler, and the
+        exception in Section 4.1 continues to apply, subject to paragraph (c).
+        For purposes of this paragraph (a), Your use, in accordance with its
+        accompanying documentation, of a configuration, invocation, or
+        integration feature that the Compiler makes available and documents
+        is not a modification by You, regardless of whether the Compiler as
+        You received it was unmodified or had already been modified by
+        another Person. It does not matter who authored that documentation --
+        whether a Rights Holder, a Contributor, or any other Person --
+        provided that You did not author it; documentation authored or
+        co-authored by You does not qualify for purposes of this paragraph.
 
-Nothing in this Section grants rights in material that is not governed by this
-License or that a Rights Holder or Contributor does not own or have authority
-to license.
+    (b) Where Your modification substantially alters the Component's own core
+        processing functionality, the work is no longer a Compiler, and the
+        exception in Section 4.1 does not apply to output produced by that
+        work.
 
-4.3 UNMODIFIED COMPILER SAFE HARBOR
+    (c) Where paragraph (a) applies, the exception does not extend to a
+        Component, or to a portion of a Component's Source or Object form,
+        that appears in the output in a manner satisfying both of the
+        following conditions:
 
-If You receive a Compiler and use that Compiler without modifying it to
-process input and produce output, and the input does not itself consist of,
-include, or incorporate the Source or Object form of a Component governed by
-this License, the resulting output is not subject to Section 3 solely because
-it was produced by, or includes material resulting from the ordinary operation
-of, that Compiler.
+        (i)  that portion is substantially complete and independently usable
+             as the Component, or as that portion of the Component, outside
+             the context of the particular output in which it appears; and
 
-You are not required, solely for purposes of this Section 4.3, to determine
-whether the resulting output is itself a Compiler, a Component, a Derivative
-Work, or any other work governed by this License.
+        (ii) that portion is not required as functional processing logic for
+             the output's own operation, including where the output could be
+             produced and operate correctly with that portion omitted or
+             replaced.
 
-This safe harbor concerns only whether the resulting output, taken as a whole,
-must be classified as a Compiler, Component, Derivative Work, or other work
-governed by this License. It does not exempt from Section 3 any discrete
-material within that output that separately satisfies both conditions of
-Section 4.2, and it does not narrow the scope of Section 4.2 in any respect.
+        Material satisfying both conditions remains subject to Section 3.
+        Material failing either condition is not subject to Section 3 solely
+        by virtue of its origin in a Component.
 
-The safe harbor in this Section 4.3 applies regardless of whether the
-unmodified Compiler was received directly from a Rights Holder, Contributor,
-or another Person, provided that You have not modified the Compiler before
-using it.
+Nothing in this Section grants rights in material that is not governed by
+this License or that a Rights Holder or Contributor does not own or have
+authority to license.
 
-4.4 OUTPUT OF A MODIFIED COMPILER
+4.4 COMPILERS NOT MODIFIED BY YOU
 
-If You use a Compiler that has been modified by You or by another Person to
-process input and produce output, the exception in Section 4.1 continues to
-apply according to its terms, provided that the modified work remains a
-Compiler under Section 1.
+Where You use a Compiler without modifying it Yourself to process input to
+which Section 4.2 does not apply, the exception in Section 4.1 applies in
+full to the resulting output, including with respect to any Component
+material appearing in that output. This is the case regardless of:
 
-Where the modified work remains a Compiler because the modification affects
-only its configuration, invocation, packaging, integration, wrapper, or other
-surrounding aspects without substantially altering the Component's own core
-processing functionality, the work remains a Compiler for purposes of this
-Section.
+    (a) whether the Compiler was received directly from a Rights Holder or
+        Contributor, or from another Person;
 
-Where a modification substantially alters the Component's own core processing
-functionality so that the resulting work no longer meets the definition of
-Compiler in Section 1, the Compiler Output Exception in this Section 4 does
-not extend to output produced by that work.
+    (b) whether the Compiler had already been modified by another Person
+        before You received it, and regardless of the nature or extent of
+        that modification, including a modification that would substantially
+        alter the Component's own core processing functionality; and
 
-4.5 LICENSE COPY SAFE HARBOR FOR OUTPUT OF A MODIFIED COMPILER
+    (c) whether You knew or had reason to know of any such prior
+        modification.
 
-Where You use a Compiler that has been modified by You or by another Person
-to process input and produce output, and an obligation under Section 3(a)
-applies to that output or to the modified Compiler, You satisfy the obligation
-to provide a copy of this License by providing the License in any format and
-through any medium reasonably calculated to make it available to recipients.
+You are not required, for purposes of this Section 4.4, to determine whether
+the Compiler as You received it, or the resulting output, is itself a
+Compiler, a Component, a Derivative Work, or any other work governed by this
+License.
 
-This may include, without limitation, a separate file, an embedded notice, a
-stable reference such as a URL, accompanying documentation, or any other
-reasonable means, whether or not that means matches the form of the output,
-the modified Compiler, or the distribution as a whole.
+4.5 LICENSE COPY SAFE HARBOR
 
-This safe harbor concerns only the manner in which the copy of the License
+Where an obligation under Section 3(a) applies to output or to a Compiler
+because Section 4.3 applies, You satisfy that obligation by providing a copy
+of this License in any format and through any medium reasonably calculated to
+make it available to recipients, including without limitation a separate
+file, an embedded notice, a stable reference such as a URL, or accompanying
+documentation, whether or not that means matches the form of the output, the
+modified Compiler, or the distribution as a whole.
+
+This Section 4.5 concerns only the manner in which the copy of the License
 required by Section 3(a) is provided. It does not excuse compliance with
-Section 3(b) and does not narrow or expand the substantive exception provided
-by Sections 4.1 through 4.4.
+Section 3(b) and does not narrow or expand the exception provided by Sections
+4.1 through 4.4.
 
-4.6 RECIPIENTS OF AN ALREADY-MODIFIED COMPILER
-
-If You receive a Compiler that has already been modified by another Person
-and use that Compiler, without further modification by You, to process input
-and produce output, You are not required to determine whether the resulting
-output is itself a Compiler under Section 1, provided that the input does not
-itself consist of, include, or incorporate the Source or Object form of a
-Component governed by this License.
-
-This safe harbor applies only to output produced from input that satisfies
-that limitation. It does not apply to output produced from input that
-consists of, includes, or incorporates such Component material. Nor does it
-exempt from Section 3 any discrete material within the output that separately
-satisfies both conditions of Section 4.2.
-
-For the avoidance of doubt, a Compiler modified only at the level described in
-the final paragraph of the Compiler definition in Section 1 remains a Compiler
-for purposes of this Section 4. A modification that substantially alters a
-Component's own core processing functionality, such that the resulting work
-no longer meets the definition of Compiler in Section 1, is not covered by
-this safe harbor.
-
-4.7 THIRD-PARTY MATERIAL
+4.6 THIRD-PARTY MATERIAL
 
 If the Compiler contains, uses, processes, injects, incorporates, embeds,
 links, reproduces, or otherwise includes material governed by a Third-Party
