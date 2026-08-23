@@ -387,15 +387,34 @@ described in Section 4.2 or Section 4.3(a) in order to use a documented
 feature of the Compiler with respect to that Component. Nothing in this
 License conditions that Rights Holder's rights under Section 2 on invoking
 Section 4.2 or Section 4.3(a), and nothing in this Section shall be read to
-limit or diminish those rights.
+limit or diminish those rights. This exemption applies only where the
+Compiler, in Source or Object form, is made available by that Rights Holder
+for public use. It does not extend to a private modification of the Compiler
+that the Rights Holder has made for the Rights Holder's own use and has not
+made available for public use.
 
-For the avoidance of doubt, the preceding paragraph addresses only that
-Rights Holder's use of a documented feature and its relationship to Section
-4.2 and Section 4.3(a); it does not exempt that Rights Holder from the
-conditions of Section 3. Where that Rights Holder Distributes the Component
-or the Compiler, that Rights Holder remains subject to Section 3 -- including
-the obligations to provide a copy of this License and to retain applicable
-notices -- to the same extent as any other Person Distributing that material.
+Similarly, once a feature that a Contributor added by way of a Contribution
+has been documented by the Rights Holder of the original Component, or
+documentation of that feature authored by the Contributor has been accepted
+by that Rights Holder as part of the accompanying documentation of the
+Component or Compiler, the Contributor is likewise not required to invoke,
+and need not separately rely upon, the exception described in Section 4.2 or
+Section 4.3(a) in order to use that documented feature. This paragraph
+applies only once such documentation exists and has been authored by that
+Rights Holder or accepted by that Rights Holder as described above; it does
+not exempt a Contributor's use of a feature that remains undocumented, nor a
+feature documented solely by the Contributor without such acceptance, which
+remain governed by Section 4.2 and Section 4.3(a) in the ordinary course.
+
+For the avoidance of doubt, the preceding two paragraphs address only the use
+of a documented feature by the Rights Holder or by the Contributor described
+above, and its relationship to Section 4.2 and Section 4.3(a); they do not
+exempt that Rights Holder or that Contributor from the conditions of Section
+3. Where that Rights Holder or that Contributor Distributes the Component
+or the Compiler, that Rights Holder or Contributor remains subject to Section
+3 -- including the obligations to provide a copy of this License and to
+retain applicable notices -- to the same extent as any other Person
+Distributing that material.
 
 
 6. NOTICE FILE AND CONTRIBUTOR NOTICES
