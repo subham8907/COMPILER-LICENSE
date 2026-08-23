@@ -1,3 +1,4 @@
+
 GENERIC FREE COMPILER LICENSE
 
 1. DEFINITIONS
@@ -219,7 +220,12 @@ of the following conditions:
         and operate correctly with that portion omitted or replaced.
 
 Material satisfying both conditions remains subject to Section 3, regardless
-of how that material came to appear in the output.
+of how that material came to appear in the output, regardless of whether the
+Compiler that produced it was modified or unmodified, and regardless of
+whether any safe harbor in Section 4.3 or 4.6 applies to the resulting output
+or to Your use of the Compiler. No safe harbor elsewhere in this Section 4
+shall be construed to exempt material satisfying both conditions of this
+Section 4.2 from Section 3.
 
 Material that fails either condition because it is a non-functional fragment
 of the Component or because it is integral to the output's own operation is
@@ -241,6 +247,12 @@ of, that Compiler.
 You are not required, solely for purposes of this Section 4.3, to determine
 whether the resulting output is itself a Compiler, a Component, a Derivative
 Work, or any other work governed by this License.
+
+This safe harbor concerns only whether the resulting output, taken as a whole,
+must be classified as a Compiler, Component, Derivative Work, or other work
+governed by this License. It does not exempt from Section 3 any discrete
+material within that output that separately satisfies both conditions of
+Section 4.2, and it does not narrow the scope of Section 4.2 in any respect.
 
 The safe harbor in this Section 4.3 applies regardless of whether the
 unmodified Compiler was received directly from a Rights Holder, Contributor,
@@ -294,7 +306,9 @@ Component governed by this License.
 
 This safe harbor applies only to output produced from input that satisfies
 that limitation. It does not apply to output produced from input that
-consists of, includes, or incorporates such Component material.
+consists of, includes, or incorporates such Component material. Nor does it
+exempt from Section 3 any discrete material within the output that separately
+satisfies both conditions of Section 4.2.
 
 For the avoidance of doubt, a Compiler modified only at the level described in
 the final paragraph of the Compiler definition in Section 1 remains a Compiler
