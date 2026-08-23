@@ -24,62 +24,27 @@ configuration files.
 translation of a Source form, including, but not limited to, compiled object
 code, generated documentation, and conversions to other media types.
 
-"Core Processing Functionality" means, with respect to a Component, the
-documented primary function of that Component to process Source form or other
-input into Object form or other output, as described in the Component's
-accompanying documentation provided by a Rights Holder or Contributor. It
-does not include ancillary features such as configuration, invocation,
-packaging, integration, logging, error handling, performance optimization,
-user interface, output formatting, or similar surrounding aspects.
-
-"Substantially Alter" means, with respect to a Component's Core Processing
-Functionality, to remove, disable, or change that functionality in a manner
-that causes the Component, when invoked with the same input and configuration
-as the unmodified Component, to fail to perform its documented primary
-processing function in a material respect. A modification that changes only
-configuration, invocation, packaging, integration, logging, error handling,
-performance, output formatting, or similar surrounding aspects does not
-Substantially Alter the Core Processing Functionality, even if it changes
-observable output, unless it prevents the Component from performing its
-documented primary processing function in a material respect.
-
-"Substantially Complete and Independently Usable" means, with respect to a
-portion of a Component appearing in output, that:
-
-(a) the portion constitutes a copy, in Source or Object form, of all or
-substantially all of the Component as distributed under this License, such
-that a reasonably skilled person could extract that portion and use it to
-perform the Component's documented primary processing function without
-obtaining additional material from the Component; and
-
-(b) the portion is not required for the output to perform its own primary
-function, meaning the output would continue to operate in the same material
-respects if that portion were omitted or replaced with an interface to a
-separately distributed copy of the Component.
-
 "Compiler" means any work that intentionally incorporates one or more
 Components governed by this License as a functional part of its processing
 capability and uses that Component to operate upon Source form or other input
-to produce Object form or other output, where the Component retains its Core
-Processing Functionality. A standalone Component governed by this License may
-itself constitute a Compiler if, independently and without requiring
-incorporation into another work, it performs the processing described above.
-A work is not a Compiler merely because it is processed by, produces, or
-interoperates with a Compiler, independently performs similar processing, or
-incorporates a Component only incidentally, without intentionally using that
-Component to provide the processing capability described above.
+to produce Object form or other output, where the Component retains
+substantially the same functional capacity as in its unmodified form. A work
+is not a Compiler merely because it is processed by, produces, or interoperates
+with a Compiler, independently performs similar processing, or incorporates a
+Component only incidentally, without intentionally using that Component to
+provide the processing capability described above.
 
-Modifications to the surrounding work in which a Component is incorporated,
+Modifications to the surrounding work in which a Component is incorporated—
 including changes to the Component's configuration, invocation, packaging, or
-integration, do not, by themselves, cause a work to cease being a Compiler,
-provided that the Component's Core Processing Functionality has not been
-Substantially Altered. A work ceases to be a Compiler under this definition
-only where a modification has Substantially Altered the Component's Core
-Processing Functionality, and not merely the wrapper or integration around it.
+integration—do not, by themselves, cause a work to cease being a Compiler,
+provided that the Component's own core processing functionality has not been
+substantially altered. A work ceases to be a Compiler under this definition
+only where a modification has substantially altered the Component's own core
+processing functionality, and not merely the wrapper or integration around it.
 
-"Component" means a work of authorship, whether in Source or Object form,
-made available under this License, as indicated by a copyright or other
-licensing notice included in or attached to that work.
+"Component" means a work of authorship, whether in Source or Object form, made
+available under this License, as indicated by a copyright or other licensing
+notice included in or attached to that work.
 
 "Derivative Works" means any work, whether in Source or Object form, that is
 based on or derived from a Component or the Compiler and for which the
@@ -256,28 +221,31 @@ Input is likewise not treated as including such material, and this Section
 4.2 does not apply, where the material became part of the input through Your
 use, in accordance with its accompanying documentation, of a feature that the
 Compiler makes available and documents for configuring, selecting, or
-controlling its input or processing, whether You actively configured that
-feature or left it at its documented default. Documentation authored or
-co-authored by You does not qualify for purposes of this paragraph unless it
-has been adopted and made available by a Rights Holder or Contributor as part
-of the Component's official documentation. For the avoidance of doubt,
-documentation authored by a Rights Holder describing a feature that Rights
-Holder added qualifies under this paragraph; documentation authored by a
-Contributor describing a feature that Contributor added by way of a
-Contribution qualifies under this paragraph; and, where a Rights Holder
-incorporates a feature received by way of a Contribution from a Contributor
-and documents that feature, such documentation qualifies under this paragraph
-regardless of whether the Rights Holder or the originating Contributor is
-identified as its author. The mere fact that the Rights Holder, rather than
-the originating Contributor, authored the documentation of a feature received
-by way of Contribution does not cause that documentation to fail to qualify.
+controlling its input or processing -- whether You actively configured that
+feature or left it at its documented default. It does not matter who authored
+that documentation -- whether a Rights Holder, a Contributor, or any other
+Person -- provided that You did not author it. Documentation authored or
+co-authored by You does not qualify for purposes of this paragraph.
 
-As used in this paragraph, "a Rights Holder" means the Rights Holder of the
-Component whose Source or Object form is at issue under this Section 4.2,
-that is, the original Component potentially appearing in the input or output,
-and does not include a Person who holds Rights solely in other, unrelated
-material. This paragraph applies regardless of whether the Compiler as You
-received it was unmodified or had already been modified by another Person.
+For the avoidance of doubt: documentation authored by a Rights Holder
+describing a feature that Rights Holder added qualifies under this paragraph;
+documentation authored by a Contributor describing a feature that Contributor
+added by way of a Contribution qualifies under this paragraph; and, where a
+Rights Holder incorporates a feature received by way of a Contribution from a
+Contributor and documents that feature, such documentation qualifies under
+this paragraph regardless of whether the Rights Holder or the originating
+Contributor is identified as its author. The mere fact that the Rights Holder,
+rather than the originating Contributor, authored the documentation of a
+feature received by way of Contribution does not cause that documentation to
+fail to qualify.
+
+This paragraph applies regardless of whether the Compiler as You received it
+was unmodified or had already been modified by another Person. For the
+avoidance of doubt, where You receive a Compiler from another Person with the
+feature already built in, and that feature is documented as described in this
+paragraph, Your use of that feature qualifies under this paragraph whether or
+not You had any role in building the feature into the Compiler or authoring
+its documentation.
 
 4.3 LOSS OF THE EXCEPTION -- YOUR OWN MODIFICATION OF THE COMPILER
 
@@ -285,38 +253,36 @@ This Section 4.3 applies only where You modify the Compiler. Where the
 Compiler was modified solely by another Person and not further modified by
 You, Section 4.4 applies instead.
 
-    (a) Where Your modification does not Substantially Alter the Component's
-        Core Processing Functionality, for example, a change limited to the
-        Component's configuration, invocation, packaging, integration, or
-        other surrounding aspects, the work remains a Compiler, and the
+    (a) Where Your modification does not substantially alter the Component's
+        own core processing functionality -- for example, a change limited to
+        the Component's configuration, invocation, packaging, integration, or
+        other surrounding aspects -- the work remains a Compiler, and the
         exception in Section 4.1 continues to apply, subject to paragraph (c).
         For purposes of this paragraph (a), Your use, in accordance with its
         accompanying documentation, of a configuration, invocation, or
         integration feature that the Compiler makes available and documents
         is not a modification by You, regardless of whether the Compiler as
         You received it was unmodified or had already been modified by
-        another Person. Documentation authored or co-authored by You does not
-        qualify for purposes of this paragraph unless it has been adopted and
-        made available by a Rights Holder or Contributor as part of the
-        Component's official documentation. For the avoidance of doubt,
-        documentation authored by a Rights Holder describing a feature that
-        Rights Holder added qualifies; documentation authored by a Contributor
-        describing a feature that Contributor added by way of a Contribution
-        qualifies; and, where a Rights Holder incorporates a feature received
-        by way of a Contribution from a Contributor and documents that
-        feature, such documentation qualifies regardless of whether the Rights
-        Holder or the originating Contributor is identified as its author.
+        another Person. It does not matter who authored that documentation --
+        whether a Rights Holder, a Contributor, or any other Person --
+        provided that You did not author it; documentation authored or
+        co-authored by You does not qualify for purposes of this paragraph.
+        For the avoidance of doubt, documentation authored by a Rights Holder
+        describing a feature that Rights Holder added qualifies;
+        documentation authored by a Contributor describing a feature that
+        Contributor added by way of a Contribution qualifies; and, where a
+        Rights Holder incorporates a feature received by way of a Contribution
+        from a Contributor and documents that feature, such documentation
+        qualifies regardless of whether the Rights Holder or the originating
+        Contributor is identified as its author. For the avoidance of doubt,
+        where You receive a Compiler from another Person with the feature
+        already built in, and that feature is documented as described in this
+        paragraph, Your use of that feature qualifies under this paragraph
+        whether or not You had any role in building the feature into the
+        Compiler or authoring its documentation.
 
-        As used in this paragraph, "a Rights Holder" means the Rights Holder
-        of the Component whose Core Processing Functionality is at issue under
-        this Section 4.3, that is, the original Component within the Compiler,
-        and does not include a Person who holds Rights solely in other,
-        unrelated material. This paragraph applies regardless of whether the
-        Compiler as You received it was unmodified or had already been
-        modified by another Person.
-
-    (b) Where Your modification Substantially Alters the Component's Core
-        Processing Functionality, the work is no longer a Compiler, and the
+    (b) Where Your modification substantially alters the Component's own core
+        processing functionality, the work is no longer a Compiler, and the
         exception in Section 4.1 does not apply to output produced by that
         work.
 
@@ -325,7 +291,7 @@ You, Section 4.4 applies instead.
         that appears in the output in a manner satisfying both of the
         following conditions:
 
-        (i)  that portion is Substantially Complete and Independently Usable
+        (i)  that portion is substantially complete and independently usable
              as the Component, or as that portion of the Component, outside
              the context of the particular output in which it appears; and
 
@@ -336,9 +302,7 @@ You, Section 4.4 applies instead.
 
         Material satisfying both conditions remains subject to Section 3.
         Material failing either condition is not subject to Section 3 solely
-        by virtue of its origin in a Component. In interpreting whether a
-        portion satisfies either condition, any ambiguity shall be resolved in
-        favor of the exception in Section 4.1.
+        by virtue of its origin in a Component.
 
 Nothing in this Section grants rights in material that is not governed by
 this License or that a Rights Holder or Contributor does not own or have
@@ -347,31 +311,25 @@ authority to license.
 4.4 COMPILERS NOT MODIFIED BY YOU
 
 Where You use a Compiler without modifying it Yourself to process input to
-which Section 4.2 does not apply, the exception in Section 4.1 applies to the
-resulting output, provided that:
+which Section 4.2 does not apply, the exception in Section 4.1 applies in
+full to the resulting output, including with respect to any Component
+material appearing in that output. This is the case regardless of:
 
-    (a) You received the work as a Compiler under this License, or You
-        reasonably believed in good faith that the work as received was a
-        Compiler under this License; and
+    (a) whether the Compiler was received directly from a Rights Holder or
+        Contributor, or from another Person;
 
-    (b) You do not have actual knowledge that the work as received has been
-        modified by another Person in a manner that Substantially Alters a
-        Component's Core Processing Functionality, and You are not aware of
-        facts that would lead a reasonable person to conclude that such
-        modification has occurred.
+    (b) whether the Compiler had already been modified by another Person
+        before You received it, and regardless of the nature or extent of
+        that modification, including a modification that would substantially
+        alter the Component's own core processing functionality; and
 
-If You have such actual knowledge or awareness, Section 4.3 applies as if You
-had made that modification Yourself. You are not required to investigate prior
-modifications beyond facts actually known to You or that are obvious from the
-circumstances. You may rely on a written representation by the person from
-whom You received the work that the work is a Compiler under this License
-unless You have actual knowledge that the representation is false or are aware
-of facts that would lead a reasonable person to conclude that it is false.
+    (c) whether You knew or had reason to know of any such prior
+        modification.
 
-This Section 4.4 does not require You to determine whether the Compiler as You
-received it, or the resulting output, is itself a Compiler, a Component, a
-Derivative Work, or any other work governed by this License, except to the
-extent of the actual knowledge or awareness described above.
+You are not required, for purposes of this Section 4.4, to determine whether
+the Compiler as You received it, or the resulting output, is itself a
+Compiler, a Component, a Derivative Work, or any other work governed by this
+License.
 
 4.5 LICENSE COPY SAFE HARBOR
 
@@ -410,6 +368,34 @@ provided by this License with respect to that Contribution.
 Notwithstanding the foregoing, nothing in this Section shall supersede or
 modify the terms of any separate license agreement You may have executed with
 the applicable Rights Holder regarding such Contributions.
+
+By submitting a Contribution, a Contributor agrees that the Rights Holder to
+whom the Contribution is submitted, and who maintains the Component or
+Compiler into which the Contribution is incorporated, may document, or cause
+to be documented, the feature, modification, or functionality embodied in
+that Contribution as part of the accompanying documentation of the Component
+or Compiler, including for purposes of Section 4.2 and Section 4.3(a) of this
+License. This agreement does not require the Contributor to author or
+maintain that documentation themselves, and does not limit a Contributor's
+own ability to separately document a feature the Contributor added, which
+likewise qualifies under Section 4.2 and Section 4.3(a).
+
+The Rights Holder of the original Component who maintains the Compiler holds
+the Rights described in Section 2 with respect to that Component directly,
+and is not required to invoke, and need not rely upon, the exception
+described in Section 4.2 or Section 4.3(a) in order to use a documented
+feature of the Compiler with respect to that Component. Nothing in this
+License conditions that Rights Holder's rights under Section 2 on invoking
+Section 4.2 or Section 4.3(a), and nothing in this Section shall be read to
+limit or diminish those rights.
+
+For the avoidance of doubt, the preceding paragraph addresses only that
+Rights Holder's use of a documented feature and its relationship to Section
+4.2 and Section 4.3(a); it does not exempt that Rights Holder from the
+conditions of Section 3. Where that Rights Holder Distributes the Component
+or the Compiler, that Rights Holder remains subject to Section 3 -- including
+the obligations to provide a copy of this License and to retain applicable
+notices -- to the same extent as any other Person Distributing that material.
 
 
 6. NOTICE FILE AND CONTRIBUTOR NOTICES
@@ -467,7 +453,7 @@ Component, or a Derivative Work, provided that such license was granted while
 Your rights under this License were in force and the third party remains in
 compliance with the terms applicable to it.
 
-Sections 1, 2.3, 6, 7, 8, 9, 10, and 11 shall survive any termination to the
+Sections 1, 2.3, 6, 7, 8, 9, and 10 shall survive any termination to the
 extent necessary to give effect to their terms.
 
 
@@ -493,15 +479,3 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM,
 OUT OF, OR IN CONNECTION WITH THE COMPILER, ANY COMPONENT, CONTRIBUTION,
 DERIVATIVE WORK, ANY OUTPUT PRODUCED OR GENERATED BY THE COMPILER, OR THE USE
 OF OR OTHER DEALINGS IN ANY OF THE FOREGOING.
-
-
-11. GOVERNING LAW AND DISPUTE RESOLUTION
-
-This License and any disputes arising out of or relating to it shall be
-governed by the laws specified in the NOTICE file, if any. If no law is
-specified, this License shall be governed by the laws of the jurisdiction in
-which the Component or Compiler was first made available by the Rights Holder,
-without regard to conflict-of-laws principles. The courts of that jurisdiction
-shall have exclusive jurisdiction over any such disputes, except that a Rights
-Holder or Contributor may seek injunctive relief in any court of competent
-jurisdiction.
