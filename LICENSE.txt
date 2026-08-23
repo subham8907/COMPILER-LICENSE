@@ -24,23 +24,56 @@ configuration files.
 translation of a Source form, including, but not limited to, compiled object
 code, generated documentation, and conversions to other media types.
 
+"Core Processing Functionality" means, with respect to a Component, the
+documented primary function of that Component to process Source form or other
+input into Object form or other output, as described in the Component's
+accompanying documentation provided by a Rights Holder or Contributor. It
+does not include ancillary features such as configuration, invocation,
+packaging, integration, logging, error handling, performance optimization,
+user interface, output formatting, or similar surrounding aspects.
+
+"Substantially Alter" means, with respect to a Component's Core Processing
+Functionality, to remove, disable, or change that functionality in a manner
+that causes the Component, when invoked with the same input and configuration
+as the unmodified Component, to fail to perform its documented primary
+processing function in a material respect. A modification that changes only
+configuration, invocation, packaging, integration, logging, error handling,
+performance, output formatting, or similar surrounding aspects does not
+Substantially Alter the Core Processing Functionality, even if it changes
+observable output, unless it prevents the Component from performing its
+documented primary processing function in a material respect.
+
+"Substantially Complete and Independently Usable" means, with respect to a
+portion of a Component appearing in output, that:
+
+(a) the portion constitutes a copy, in Source or Object form, of all or
+substantially all of the Component as distributed under this License, such
+that a reasonably skilled person could extract that portion and use it to
+perform the Component's documented primary processing function without
+obtaining additional material from the Component; and
+
+(b) the portion is not required for the output to perform its own primary
+function, meaning the output would continue to operate in the same material
+respects if that portion were omitted or replaced with an interface to a
+separately distributed copy of the Component.
+
 "Compiler" means any work that intentionally incorporates one or more
 Components governed by this License as a functional part of its processing
 capability and uses that Component to operate upon Source form or other input
-to produce Object form or other output, where the Component retains
-substantially the same functional capacity as in its unmodified form. A work
-is not a Compiler merely because it is processed by, produces, or interoperates
-with a Compiler, independently performs similar processing, or incorporates a
-Component only incidentally, without intentionally using that Component to
-provide the processing capability described above.
+to produce Object form or other output, where the Component retains its Core
+Processing Functionality. A work is not a Compiler merely because it is
+processed by, produces, or interoperates with a Compiler, independently
+performs similar processing, or incorporates a Component only incidentally,
+without intentionally using that Component to provide the processing
+capability described above.
 
 Modifications to the surrounding work in which a Component is incorporated—
 including changes to the Component's configuration, invocation, packaging, or
 integration—do not, by themselves, cause a work to cease being a Compiler,
-provided that the Component's own core processing functionality has not been
-substantially altered. A work ceases to be a Compiler under this definition
-only where a modification has substantially altered the Component's own core
-processing functionality, and not merely the wrapper or integration around it.
+provided that the Component's Core Processing Functionality has not been
+Substantially Altered. A work ceases to be a Compiler under this definition
+only where a modification has Substantially Altered the Component's Core
+Processing Functionality, and not merely the wrapper or integration around it.
 
 "Component" means a work of authorship, whether in Source or Object form, made
 available under this License, as indicated by a copyright or other licensing
@@ -253,8 +286,8 @@ This Section 4.3 applies only where You modify the Compiler. Where the
 Compiler was modified solely by another Person and not further modified by
 You, Section 4.4 applies instead.
 
-    (a) Where Your modification does not substantially alter the Component's
-        own core processing functionality -- for example, a change limited to
+    (a) Where Your modification does not Substantially Alter the Component's
+        Core Processing Functionality -- for example, a change limited to
         the Component's configuration, invocation, packaging, integration, or
         other surrounding aspects -- the work remains a Compiler, and the
         exception in Section 4.1 continues to apply, subject to paragraph (c).
@@ -281,8 +314,8 @@ You, Section 4.4 applies instead.
         whether or not You had any role in building the feature into the
         Compiler or authoring its documentation.
 
-    (b) Where Your modification substantially alters the Component's own core
-        processing functionality, the work is no longer a Compiler, and the
+    (b) Where Your modification Substantially Alters the Component's Core
+        Processing Functionality, the work is no longer a Compiler, and the
         exception in Section 4.1 does not apply to output produced by that
         work.
 
@@ -291,7 +324,7 @@ You, Section 4.4 applies instead.
         that appears in the output in a manner satisfying both of the
         following conditions:
 
-        (i)  that portion is substantially complete and independently usable
+        (i)  that portion is Substantially Complete and Independently Usable
              as the Component, or as that portion of the Component, outside
              the context of the particular output in which it appears; and
 
@@ -320,8 +353,8 @@ material appearing in that output. This is the case regardless of:
 
     (b) whether the Compiler had already been modified by another Person
         before You received it, and regardless of the nature or extent of
-        that modification, including a modification that would substantially
-        alter the Component's own core processing functionality; and
+        that modification, including a modification that would Substantially
+        Alter the Component's Core Processing Functionality; and
 
     (c) whether You knew or had reason to know of any such prior
         modification.
