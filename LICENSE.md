@@ -218,7 +218,7 @@ notices required by upstream Rights Holders or Third-Party Licenses.]
 
 ## GENERIC FREE COMPILER LIBRARY EXCEPTION
 
-**"Exception"** means Sections 1 and 2 below.
+**"Exception"** means Sections 1 and 2 below, subject to and operating under Section 11 of the License, being the provision by which the License incorporates this Exception.
 
 **"Library"** means a work governed by this Exception.
 
@@ -229,3 +229,57 @@ If a Compiler, during compilation, includes a portion of a Library, the resultin
 ### 2. Modification and Distribution
 
 You may modify a Library without losing the benefit of this Exception. However, if You distribute the Library itself, You must provide a copy of this Exception and of the License along with it.
+
+---
+
+## EXHIBIT B — Illustrative Library Exception Notice
+
+> **This Exhibit is non-exhaustive.** It illustrates one acceptable way to (a) mark a work as a Library governed by the Generic Free Compiler Library Exception, and (b) satisfy Section 2's requirement to include a copy of the Exception and the License when distributing the Library itself. Rights Holders may adapt wording and placement (e.g., file header, README, LICENSE file) as long as the required notices are present and legible.
+
+---
+
+**A. Header notice, placed at the top of the Library's Source form:**
+
+```
+[Name of Library]  [Version, if applicable]
+Copyright (c) [Year(s)]  [Rights Holder name or pseudonym]
+
+This file is part of a Library governed by the Generic Free Compiler
+License (Streamlined), subject to the Generic Free Compiler Library
+Exception. Under the Exception, output produced by a Compiler that
+includes a portion of this Library during compilation is exempt from
+the distribution conditions of Section 3 of the License; this
+exemption extends only to that output.
+
+A copy of the License and the Exception is included in this
+distribution as LICENSE, or may be obtained at:
+[URL or address, if applicable].
+```
+
+**B. Distribution checklist, applicable whenever the Library itself (as opposed to a Compiler's output that merely includes it) is distributed, per Section 2 of the Exception:**
+
+```
+LIBRARY DISTRIBUTION NOTICE
+======================================================================
+[Name of Library]  [Version, if applicable]
+
+Included with this distribution:
+  [ ] A copy of the Generic Free Compiler License (Streamlined)
+  [ ] A copy of the Generic Free Compiler Library Exception
+
+Modified from the original?  [Yes / No]
+  If Yes, modifications by: [Name or pseudonym]
+
+Note: Sections 3 and 6 of the License do not apply to this Library.
+The items checked above are the only distribution requirements under
+the Exception.
+======================================================================
+```
+
+**C. Compiler-side reference (optional).** A Compiler that incorporates the Library may, at the Rights Holder's option, note the relationship in its own NOTICE file (Section 6.1) or documentation, e.g.:
+
+```
+This Compiler incorporates [Name of Library] as a Library under the
+Generic Free Compiler Library Exception. See [Library]'s own LICENSE
+and Exception files for its terms.
+```
