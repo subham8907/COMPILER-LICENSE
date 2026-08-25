@@ -107,6 +107,20 @@ None of this exempts a Rights Holder or Contributor from Section 3 obligations (
 **6.5 NOTICE file required in any medium and format; output excluded.** Whenever You Distribute the Compiler, a Component, or a Derivative Work — regardless of the medium or format used (including but not limited to physical media, electronic download, network transmission, or embedded delivery) — You must include the applicable NOTICE file in a form that is accessible to the recipient in that same medium. You may transform or convert the NOTICE file into any format (including plain text, HTML, PDF, printed insert, on-screen display, or any other representation), provided that the content required by Sections 6.1 through 6.4 is preserved in full and remains clearly legible to the recipient. This obligation applies whether You are distributing Source form, Object form, or both. It does not apply to output produced by the Compiler, which is governed by Section 4 and is not subject to the distribution conditions of Section 3 solely by virtue of being output.
 
 ---
+##6A. EXEMPTION FROM SECTION 6 UPON COMPLIANCE WITH SECTION 3
+
+6A.1 You may be exempt from the requirements of Section 6 only if You comply with all applicable requirements of Section 3.
+
+6A.2 To qualify for the exemption under this Section 6A, You must retain and distribute all copyright, attribution, patent, trademark, and other legal notices required by Section 3.
+
+6A.3 Where You received a NOTICE file together with the material, You may satisfy the notice-retention and distribution requirements of Section 3 by retaining and distributing the NOTICE file You received, without creating or maintaining a separate NOTICE file, provided that the NOTICE file contains the notices required by Section 3.
+
+6A.4 The notices required by Section 3 may be retained and distributed in any medium or format, provided that the required notices are preserved and remain reasonably accessible and legible to the recipient.
+
+6A.5 Upon compliance with Section 3 and this Section 6A, You are exempt from the requirements of Section 6. Failure to comply with Section 6 does not constitute a breach of this License where You have satisfied the requirements of Section 3 and this Section 6A.
+
+6A.6 This Section 6A does not eliminate or reduce any obligation imposed by Section 3. Section 3 remains independently applicable, and compliance with Section 6A does not constitute compliance with Section 3 unless the requirements of Section 3 have actually been satisfied.
+
 
 ## 7. TRADEMARKS
 
