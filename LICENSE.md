@@ -78,6 +78,7 @@ You may add Your own Rights Holder statement to Your modifications, and may appl
 
 Nothing here grants rights in material outside this License or beyond what a Rights Holder/Contributor may license.
 
+
 ---
 
 ## 5. SUBMISSION OF CONTRIBUTIONS
@@ -135,6 +136,9 @@ If any provision is held invalid or unenforceable, it will be enforced to the ma
 THE COMPILER, COMPONENTS, CONTRIBUTIONS, DERIVATIVE WORKS, AND ANY OUTPUT THEY PRODUCE ARE PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, INCLUDING TITLE, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
 
 TO THE MAXIMUM EXTENT PERMITTED BY LAW, NO RIGHTS HOLDER OR CONTRIBUTOR IS LIABLE FOR ANY CLAIM, LOSS, DAMAGE, OR OTHER LIABILITY (CONTRACT, TORT, OR OTHERWISE) ARISING FROM THE COMPILER, ANY COMPONENT, CONTRIBUTION, DERIVATIVE WORK, ANY OUTPUT THEY PRODUCE, OR ANY USE OR DEALING WITH ANY OF THE FOREGOING.
+
+## 11. LIBRARY EXCEPTION 
+It shall be governed by that Exception but grant is under section 2 and 3 it shall incoporated all defination all of section of this license apply except section 3 and 6  
 
 ---
 
