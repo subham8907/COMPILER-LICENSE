@@ -76,6 +76,12 @@ You may add Your own Rights Holder statement to Your modifications, and may appl
 
 **4.4 Third-party material.** Any Third-Party-Licensed material that a Compiler uses, embeds, or includes in input or output remains subject to its own Third-Party License.
 
+**4.5 Compiler identification in output.** Whenever You Distribute output produced using a Compiler governed by this License, You must include a statement, in at least one of the following forms — accompanying documentation, a NOTICE file, or the output's own user interface (where the output has one) — identifying the Compiler by name, together with its version number where the Compiler has an applicable version number. This identification is mandatory, regardless of whether Section 4.1's exception applies to that output.
+
+You may, at Your option, additionally state the source from which You obtained the Compiler: (a) if You received the Compiler via a physical medium, the name of the distributor from whom You received it; or (b) if You received the Compiler via the internet or another online source, the URL or website from which You obtained it. Disclosure of this sourcing information is optional, and its omission does not constitute non-compliance with this Section.
+
+This Section 4.5 is independent of, and does not reinstate, Section 3's conditions as applied to output under Section 4.1. It imposes solely the narrower Compiler-identification obligation described above, and does not, on account of output alone, require inclusion of the License itself, retention of the Compiler's or any Component's own copyright/attribution notices, or compliance with Section 6 or 6A.
+
 Nothing here grants rights in material outside this License or beyond what a Rights Holder/Contributor may license.
 
 ---
@@ -107,20 +113,24 @@ None of this exempts a Rights Holder or Contributor from Section 3 obligations (
 **6.5 NOTICE file required in any medium and format; output excluded.** Whenever You Distribute the Compiler, a Component, or a Derivative Work — regardless of the medium or format used (including but not limited to physical media, electronic download, network transmission, or embedded delivery) — You must include the applicable NOTICE file in a form that is accessible to the recipient in that same medium. You may transform or convert the NOTICE file into any format (including plain text, HTML, PDF, printed insert, on-screen display, or any other representation), provided that the content required by Sections 6.1 through 6.4 is preserved in full and remains clearly legible to the recipient. This obligation applies whether You are distributing Source form, Object form, or both. It does not apply to output produced by the Compiler, which is governed by Section 4 and is not subject to the distribution conditions of Section 3 solely by virtue of being output.
 
 ---
-6A. EXEMPTION FROM SECTION 6 UPON COMPLIANCE WITH SECTION 3
 
-6A.1 You may be exempt from the requirements of Section 6 only if You comply with all applicable requirements of Section 3.
+## 6A. EXEMPTION FROM SECTION 6 UPON COMPLIANCE WITH SECTION 3
 
-6A.2 To qualify for the exemption under this Section 6A, You must retain and distribute all copyright, attribution, patent, trademark, and other legal notices required by Section 3.
+**6A.1** You may be exempt from the requirements of Section 6 only if You comply with all applicable requirements of Section 3.
 
-6A.3 Where You received a NOTICE file together with the material, You may satisfy the notice-retention and distribution requirements of Section 3 by retaining and distributing the NOTICE file You received, without creating or maintaining a separate NOTICE file, provided that the NOTICE file contains the notices required by Section 3.
+**6A.2** To qualify for the exemption under this Section 6A, You must retain and distribute all copyright, attribution, patent, trademark, and other legal notices required by Section 3.
 
-6A.4 The notices required by Section 3 may be retained and distributed in any medium or format, provided that the required notices are preserved and remain reasonably accessible and legible to the recipient.
+**6A.3** Where You received a NOTICE file together with the material, You may satisfy the notice-retention and distribution requirements of Section 3 by retaining and distributing the NOTICE file You received, without creating or maintaining a separate NOTICE file, provided that the NOTICE file contains the notices required by Section 3.
 
-6A.5 Upon compliance with Section 3 and this Section 6A, You are exempt from the requirements of Section 6. Failure to comply with Section 6 does not constitute a breach of this License where You have satisfied the requirements of Section 3 and this Section 6A.
+**6A.4** The notices required by Section 3 may be retained and distributed in any medium or format, provided that the required notices are preserved and remain reasonably accessible and legible to the recipient.
 
-6A.6 This Section 6A does not eliminate or reduce any obligation imposed by Section 3. Section 3 remains independently applicable, and compliance with Section 6A does not constitute compliance with Section 3 unless the requirements of Section 3 have actually been satisfied.
+**6A.5** Upon compliance with Section 3 and this Section 6A, You are exempt from the requirements of Section 6. Failure to comply with Section 6 does not constitute a breach of this License where You have satisfied the requirements of Section 3 and this Section 6A.
 
+**6A.6** This Section 6A does not eliminate or reduce any obligation imposed by Section 3. Section 3 remains independently applicable, and compliance with Section 6A does not constitute compliance with Section 3 unless the requirements of Section 3 have actually been satisfied.
+
+**6A.7 Originating obligation preserved.** This Section 6A provides relief only with respect to material for which a NOTICE file already exists — whether because You received one from an upstream party, or because You are the Rights Holder or Contributor originating the material and are therefore subject to Section 6.1 in the first instance. A Rights Holder or Contributor Granting the License over material for which no NOTICE file yet exists remains fully bound by Section 6.1's obligation to create and maintain one, and may not invoke this Section 6A — including the fact that Section 3(b) does not independently require inclusion of a NOTICE file where none exists — as grounds to forgo that Section 6.1 obligation. The exemption in this Section 6A applies to distribution and redistribution of already-existing notice material; it does not excuse the act of origination.
+
+---
 
 ## 7. TRADEMARKS
 
@@ -130,11 +140,11 @@ This License grants no Trademark Rights, except as reasonably necessary to ident
 
 ## 8. TERMINATION
 
-Except as provided in Section 2.3, Your rights under Section 2 terminate automatically for the affected material if You breach any Section 3 condition and fail to cure the breach within 30 days of written notice from an affected Rights Holder.
+Except as provided in Section 2.3, Your rights under Section 2 terminate automatically for the affected material if You breach any Section 3 condition, or the disclosure obligation in Section 4.5, and fail to cure the breach within 30 days of written notice from an affected Rights Holder.
 
 Upon termination, You must stop exercising the affected rights, except as otherwise permitted by law or another license. Termination does not undo licenses You already validly granted to third parties before termination, as long as those third parties remain compliant.
 
-Sections 1, 2.3, 6, 7, 8, 9, and 10 survive termination to the extent necessary to remain effective.
+Sections 1, 2.3, 6, 6A, 7, 8, 9, and 10 survive termination to the extent necessary to remain effective.
 
 ---
 
@@ -154,13 +164,13 @@ TO THE MAXIMUM EXTENT PERMITTED BY LAW, NO RIGHTS HOLDER OR CONTRIBUTOR IS LIABL
 
 ## 11. LIBRARY EXCEPTION
 
-This License shall be governed, with respect to Libraries, by the **Generic Free Compiler Library Exception** (the "Library Exception"). The grant made under the Library Exception is issued pursuant to Sections 2 and 3 of this License. The Library Exception incorporates all definitions and all sections of this License, except that Sections 3 and 6 do not apply to material governed by the Library Exception.
+This License shall be governed, with respect to Libraries, by the **Generic Free Compiler Library Exception** (the "Library Exception"). The grant made under the Library Exception is issued pursuant to Sections 2 and 3 of this License. The Library Exception incorporates all definitions and all sections of this License, except that Sections 3 and 6 do not apply to material governed by the Library Exception. For the avoidance of doubt, Section 6A is treated as part of Section 6 for purposes of this exclusion: because Section 6 does not apply to Libraries, Section 6A — which grants exemption *from* Section 6 — has no independent operation as to Libraries and neither applies to nor is required by material governed by the Library Exception.
 
 ---
 
 ## EXHIBIT A — Illustrative NOTICE File Format
 
-> **This Exhibit is non-exhaustive.** It illustrates one acceptable layout for a NOTICE file as required by Sections 3(b), 6.1, 6.3, and 6.4. Rights Holders and distributors may adapt the structure, order, and level of detail to suit their project, provided all required information is present and clearly legible.
+> **This Exhibit is non-exhaustive.** It illustrates one acceptable layout for a NOTICE file as required by Sections 3(b), 6.1, 6.3, and 6.4. Rights Holders and distributors may adapt the structure, order, and level of detail to suit their project, provided all required information is present and clearly legible. A distributor relying on the exemption in Section 6A is not required to follow this format but remains subject to Section 6A.7 where it is originating, rather than merely forwarding, notice material.
 
 ---
 
