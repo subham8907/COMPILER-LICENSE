@@ -107,7 +107,7 @@ None of this exempts a Rights Holder or Contributor from Section 3 obligations (
 **6.5 NOTICE file required in any medium and format; output excluded.** Whenever You Distribute the Compiler, a Component, or a Derivative Work — regardless of the medium or format used (including but not limited to physical media, electronic download, network transmission, or embedded delivery) — You must include the applicable NOTICE file in a form that is accessible to the recipient in that same medium. You may transform or convert the NOTICE file into any format (including plain text, HTML, PDF, printed insert, on-screen display, or any other representation), provided that the content required by Sections 6.1 through 6.4 is preserved in full and remains clearly legible to the recipient. This obligation applies whether You are distributing Source form, Object form, or both. It does not apply to output produced by the Compiler, which is governed by Section 4 and is not subject to the distribution conditions of Section 3 solely by virtue of being output.
 
 ---
-##6A. EXEMPTION FROM SECTION 6 UPON COMPLIANCE WITH SECTION 3
+6A. EXEMPTION FROM SECTION 6 UPON COMPLIANCE WITH SECTION 3
 
 6A.1 You may be exempt from the requirements of Section 6 only if You comply with all applicable requirements of Section 3.
 
