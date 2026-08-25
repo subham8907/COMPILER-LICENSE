@@ -1,4 +1,4 @@
-# GENERIC FREE COMPILER LICENSE
+# GENERIC FREE COMPILER LICENSE (Streamlined)
 
 ---
 
@@ -80,7 +80,7 @@ You may add Your own Rights Holder statement to Your modifications, and may appl
 
 You may, at Your option, additionally state the source from which You obtained the Compiler: (a) if You received the Compiler via a physical medium, the name of the distributor from whom You received it; or (b) if You received the Compiler via the internet or another online source, the URL or website from which You obtained it. Disclosure of this sourcing information is optional, and its omission does not constitute non-compliance with this Section.
 
-This Section 4.5 is independent of, and does not reinstate, Section 3's conditions as applied to output under Section 4.1. It imposes solely the narrower Compiler-identification obligation described above, and does not, on account of output alone, require inclusion of the License itself, retention of the Compiler's or any Component's own copyright/attribution notices, or compliance with Section 6 or 6A.
+This Section 4.5 is independent of, and does not reinstate, Section 3's conditions as applied to output under Section 4.1. It imposes solely the narrower Compiler-identification obligation described above, and does not, on account of output alone, require inclusion of the License itself, retention of the Compiler's or any Component's own copyright/attribution notices, or compliance with Section 6.
 
 Nothing here grants rights in material outside this License or beyond what a Rights Holder/Contributor may license.
 
@@ -100,35 +100,11 @@ None of this exempts a Rights Holder or Contributor from Section 3 obligations (
 
 ---
 
-## 6. NOTICE FILE AND CONTRIBUTOR NOTICES
+## 6. NOTICE FILE
 
-**6.1** Each Rights Holder/Contributor Granting the License will maintain and make available a centralized NOTICE file with the Component/Compiler it distributes, which may consolidate the required copyright, attribution, patent, and trademark notices in lieu of repeating them throughout the material.
+**6.1** A Rights Holder/Contributor Granting the License may maintain and make available a centralized NOTICE file with the Component/Compiler it distributes, consolidating copyright, attribution, patent, and trademark notices in lieu of repeating them throughout the material. Where such a NOTICE file exists, Section 3(b) governs its distribution: it must be included whenever the associated Source or Object form is distributed, and it may be retained and passed along in any medium or format, provided the required notices remain complete and legible.
 
-**6.2** A Contributor's failure to include a notice for a Contribution does not revoke, withdraw, or limit the license already granted for that Contribution under Section 2. That grant remains fully effective regardless of whether the Contributor's notice appears in the NOTICE file or elsewhere.
-
-**6.3 Documented-feature attribution; contributor name or pseudonym.** The NOTICE file shall include, for each documented feature, a notice identifying the Rights Holder or owner of that feature by name or pseudonym. Where a Contributor has not provided a name or pseudonym at the time of their Contribution, that Contributor shall be referred to in the NOTICE file as "Contributor" (used in the singular or plural as appropriate), unless and until they subsequently provide a preferred name or pseudonym to the Rights Holder for inclusion.
-
-**6.4 Distributor and redistributor identification.** Every Person who Distributes the Compiler, a Component, or a Derivative Work — including any quasi-organized or unincorporated entity acting in that capacity — shall include in the NOTICE file a statement identifying, by name or entity designation, each party who is distributing or modifying that material as part of that distribution.
-
-**6.5 NOTICE file required in any medium and format; output excluded.** Whenever You Distribute the Compiler, a Component, or a Derivative Work — regardless of the medium or format used (including but not limited to physical media, electronic download, network transmission, or embedded delivery) — You must include the applicable NOTICE file in a form that is accessible to the recipient in that same medium. You may transform or convert the NOTICE file into any format (including plain text, HTML, PDF, printed insert, on-screen display, or any other representation), provided that the content required by Sections 6.1 through 6.4 is preserved in full and remains clearly legible to the recipient. This obligation applies whether You are distributing Source form, Object form, or both. It does not apply to output produced by the Compiler, which is governed by Section 4 and is not subject to the distribution conditions of Section 3 solely by virtue of being output.
-
----
-
-## 6A. EXEMPTION FROM SECTION 6 UPON COMPLIANCE WITH SECTION 3
-
-**6A.1** You may be exempt from the requirements of Section 6 only if You comply with all applicable requirements of Section 3.
-
-**6A.2** To qualify for the exemption under this Section 6A, You must retain and distribute all copyright, attribution, patent, trademark, and other legal notices required by Section 3.
-
-**6A.3** Where You received a NOTICE file together with the material, You may satisfy the notice-retention and distribution requirements of Section 3 by retaining and distributing the NOTICE file You received, without creating or maintaining a separate NOTICE file, provided that the NOTICE file contains the notices required by Section 3.
-
-**6A.4** The notices required by Section 3 may be retained and distributed in any medium or format, provided that the required notices are preserved and remain reasonably accessible and legible to the recipient.
-
-**6A.5** Upon compliance with Section 3 and this Section 6A, You are exempt from the requirements of Section 6. Failure to comply with Section 6 does not constitute a breach of this License where You have satisfied the requirements of Section 3 and this Section 6A.
-
-**6A.6** This Section 6A does not eliminate or reduce any obligation imposed by Section 3. Section 3 remains independently applicable, and compliance with Section 6A does not constitute compliance with Section 3 unless the requirements of Section 3 have actually been satisfied.
-
-**6A.7 Originating obligation preserved.** This Section 6A provides relief only with respect to material for which a NOTICE file already exists — whether because You received one from an upstream party, or because You are the Rights Holder or Contributor originating the material and are therefore subject to Section 6.1 in the first instance. A Rights Holder or Contributor Granting the License over material for which no NOTICE file yet exists remains fully bound by Section 6.1's obligation to create and maintain one, and may not invoke this Section 6A — including the fact that Section 3(b) does not independently require inclusion of a NOTICE file where none exists — as grounds to forgo that Section 6.1 obligation. The exemption in this Section 6A applies to distribution and redistribution of already-existing notice material; it does not excuse the act of origination.
+Maintaining a NOTICE file is optional. Where none exists, Section 3(b)'s notice-retention requirement is satisfied by retaining the copyright, attribution, patent, trademark, and other notices already present in the Source form, without any obligation to create a NOTICE file.
 
 ---
 
@@ -144,7 +120,7 @@ Except as provided in Section 2.3, Your rights under Section 2 terminate automat
 
 Upon termination, You must stop exercising the affected rights, except as otherwise permitted by law or another license. Termination does not undo licenses You already validly granted to third parties before termination, as long as those third parties remain compliant.
 
-Sections 1, 2.3, 6, 6A, 7, 8, 9, and 10 survive termination to the extent necessary to remain effective.
+Sections 1, 2.3, 6, 7, 8, 9, and 10 survive termination to the extent necessary to remain effective.
 
 ---
 
@@ -164,13 +140,13 @@ TO THE MAXIMUM EXTENT PERMITTED BY LAW, NO RIGHTS HOLDER OR CONTRIBUTOR IS LIABL
 
 ## 11. LIBRARY EXCEPTION
 
-This License shall be governed, with respect to Libraries, by the **Generic Free Compiler Library Exception** (the "Library Exception"). The grant made under the Library Exception is issued pursuant to Sections 2 and 3 of this License. The Library Exception incorporates all definitions and all sections of this License, except that Sections 3 and 6 do not apply to material governed by the Library Exception. For the avoidance of doubt, Section 6A is treated as part of Section 6 for purposes of this exclusion: because Section 6 does not apply to Libraries, Section 6A — which grants exemption *from* Section 6 — has no independent operation as to Libraries and neither applies to nor is required by material governed by the Library Exception.
+This License shall be governed, with respect to Libraries, by the **Generic Free Compiler Library Exception** (the "Library Exception"). The grant made under the Library Exception is issued pursuant to Sections 2 and 3 of this License. The Library Exception incorporates all definitions and all sections of this License, except that Sections 3 and 6 do not apply to material governed by the Library Exception.
 
 ---
 
 ## EXHIBIT A — Illustrative NOTICE File Format
 
-> **This Exhibit is non-exhaustive.** It illustrates one acceptable layout for a NOTICE file as required by Sections 3(b), 6.1, 6.3, and 6.4. Rights Holders and distributors may adapt the structure, order, and level of detail to suit their project, provided all required information is present and clearly legible. A distributor relying on the exemption in Section 6A is not required to follow this format but remains subject to Section 6A.7 where it is originating, rather than merely forwarding, notice material.
+> **This Exhibit is non-exhaustive.** It illustrates one acceptable layout for a NOTICE file as permitted by Sections 3(b) and 6.1. Rights Holders and distributors may adapt the structure, order, and level of detail to suit their project, provided all included notices are present and clearly legible. Maintaining a NOTICE file at all is optional; this Exhibit applies only where a Rights Holder or distributor chooses to maintain one.
 
 ---
 
@@ -185,18 +161,16 @@ This product is distributed under the Generic Free Compiler License
 as LICENSE, or may be obtained at: [URL or address, if applicable].
 ======================================================================
 
-RIGHTS HOLDER AND DOCUMENTED FEATURES  (§ 6.3)
+RIGHTS HOLDER NOTICES
 ----------------------------------------------------------------------
 Rights Holder / Owner : [Full name, entity name, or pseudonym]
-Documented feature(s) : [Brief description of the feature(s) owned
-                          or documented by this Rights Holder]
+Notes                 : [Optional — brief description of the material
+                          this Rights Holder owns or contributed]
 
   Additional Rights Holders (repeat block as needed):
 
   Rights Holder / Owner : [Name or pseudonym]
-                           — or, where no name was provided at time
-                             of Contribution: "Contributor"
-  Documented feature(s) : [Description]
+  Notes                 : [Description]
 
 ----------------------------------------------------------------------
 
@@ -231,21 +205,6 @@ Each such item is listed below with its applicable license.
 
 [Repeat as needed. Omit this block if no third-party material is
 included.]
-----------------------------------------------------------------------
-
-DISTRIBUTOR / REDISTRIBUTOR IDENTIFICATION  (§ 6.4)
-----------------------------------------------------------------------
-This copy of [Name of Compiler or Component] is being distributed
-and/or modified by:
-
-  Name or entity : [Full name, entity name, or quasi-organized group
-                    designation]
-  Role           : [Distributing / Modifying / Both]
-  Contact        : [Optional — address, URL, or other contact]
-
-[Repeat block for each additional distributor or redistributor in
-the chain, if known. Quasi-organized or unincorporated entities
-should use a designation sufficient to identify the group.]
 ----------------------------------------------------------------------
 
 ADDITIONAL ATTRIBUTIONS
