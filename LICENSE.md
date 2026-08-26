@@ -60,7 +60,7 @@ When distributing the Compiler, a Component, or a Derivative Work, You must:
 
 (a) include a copy of this License in a form that reasonably ensures recipients can access it; and
 
-(b) retain all copyright, attribution, patent, trademark, and other notices in the Source form being distributed, as provided by the relevant Rights Holder/Contributor. If a NOTICE file (Section 6.1) exists, include it whenever distributing Source or Object form.
+(b) retain all copyright, attribution, patent, trademark, and other notices in the Source form being distributed, as provided by the relevant Rights Holder/Contributor under this License. If a NOTICE file (Section 6.1) exists, include it whenever distributing Source or Object form. Output produced using a Compiler is fully exempt from this Section 3(b).
 
 You may add Your own Rights Holder statement to Your modifications, and may apply additional or different terms to Your modifications or to a Derivative Work as a whole, provided Your own use, reproduction, and distribution still comply with this Section.
 
@@ -70,7 +70,7 @@ You may add Your own Rights Holder statement to Your modifications, and may appl
 
 **4.1 General rule.** Using a Compiler to process, transform, translate, compile, assemble, link, or generate output does not, merely because the Compiler produced or embedded a Component in that output, subject the output to Section 3's conditions. This is subject to Section 4.2 and does not affect the application of Section 3 to the Compiler, a Component, or a Derivative Work itself.
 
-**4.2 Exception lost: deliberate inclusion in input.** The exception does not apply where You deliberately place a Component's Source or Object form into the input You feed the Compiler; the resulting output is then subject to Section 3, as if You had distributed that Component directly, regardless of further processing.
+**4.2 Exception lost: deliberate inclusion in input.** The exception does not apply where You deliberately place a Component's Source or Object form into the input You feed the Compiler, or deliberately modify a Component's Source or Object form before doing so; the resulting output is then subject to Section 3, as if You had distributed that Component directly, regardless of further processing.
 
 **4.3 Compilers You did not modify.** If You use a Compiler that You have not modified on input not covered by Section 4.2, the exception applies in full to the output, regardless of who You obtained the Compiler from, whether someone else had already modified it (even substantially), and whether You knew of any such modification. You need not determine whether the Compiler, or the output, itself qualifies as a Compiler, Component, or Derivative Work.
 
@@ -90,7 +90,7 @@ Nothing here grants rights in material outside this License or beyond what a Rig
 
 Unless You state otherwise in writing, any Contribution You submit to a Rights Holder is submitted under the terms of this License, without additional conditions. You represent that You own or are authorized to grant the rights You are offering. This does not override any separate agreement You have signed with that Rights Holder regarding Contributions.
 
-By submitting a Contribution, You agree that the receiving Rights Holder may document the resulting feature or functionality as part of the Component's or Compiler's official documentation (including for purposes of Section 4.2), without requiring You to write or maintain that documentation, and without limiting Your own right to separately document Your own added feature (which likewise qualifies under Section 4.2).
+By submitting a Contribution, You agree that the receiving Rights Holder may document the resulting feature or functionality as part of the Component's or Compiler's official documentation. Once so documented, the feature is part of the official version for purposes of Section 4.2, and shall not be treated as deliberate inclusion under that Section.
 
 A Rights Holder maintaining the Compiler holds its Section 2 Rights in its own Component directly and need not rely on the Section 4.2 exception to use a documented feature of its own Compiler; nothing conditions those Rights on invoking Section 4. This applies only to a Compiler the Rights Holder makes publicly available; it does not extend to a private, non-public modification.
 
