@@ -14,23 +14,12 @@
 
 **"Object" form** means any form resulting from mechanical transformation of Source form (compiled code, generated docs, media conversions, etc.).
 
-**"Compiler"** means a work that:
+"Compiler" means a work that intentionally incorporates one or more Component(s)
+as operative parts of its processing.
 
-**(a)** intentionally incorporates one or more Components as an operative part of its processing;
 
-**(b)** applies each such Component's existing, unaltered transformation logic to input supplied by a user or another process, in order to produce output; and
 
-**(c)** does not, in the ordinary course of that processing, alter the Component's own Source or Object form, internal parameters, or transformation logic as a persistent consequence of having processed that input, and leaves the Component capable of being invoked again on different input to perform substantially the same characteristic operation.
-
-A work is not a Compiler (when unmodified) merely by being processed by, producing, interoperating with, independently duplicating the function of, or incidentally including a Component.
-
-*For the avoidance of doubt:* a process that trains, fine-tunes, retrains, or otherwise persistently alters a Component's internal parameters using the input is not "processing" under (b)–(c), regardless of whether it also produces output; such a process is instead governed by the definition of Derivative Works, below.
-
-*Inference-time techniques — for the further avoidance of doubt:* providing additional context, instructions, examples, or retrieved material as part of the input to a Compiler (including in-context learning and retrieval-augmented generation) does not alter a Component's own Source or Object form, internal parameters, or transformation logic, and such use remains ordinary Compiler processing under this definition regardless of the sophistication or volume of the supplied context. Similarly, applying an adapter, LoRA module, control vector, or other parameter-efficient artifact to a Component at the time of processing, without persistently rewriting the Component's own stored Source or Object form, is Compiler processing for purposes of this definition. The adapter itself, however, is treated separately: if independently authored, it is a Component in its own right; if it was produced by training on or against the Component, it is a Derivative Work of that Component. Either way, the adapter's own creation, use, and Distribution are governed by the applicable provisions of this License independent of whatever treatment applies to output produced using it.
-
-*Illustrative, non-exhaustive examples:* a traditional compiler, interpreter, or transpiler applying fixed logic to source code; a template or rendering engine applying a fixed template to data; a trained model performing inference on a prompt, including with retrieved documents or a loaded adapter, without its stored weights being updated as a result — all of these are Compiler processing. **Not** Compiler processing: a training or fine-tuning run that updates a model's stored weights based on the input; a build process that copies and edits a Component's source before invoking it.
-
-**"Component"** means a work of authorship, in Source or Object form, made available under this License and marked as such.
+**"Component or Component(s)"** means a work of authorship, in Source or Object form, made available under this License and marked as such.
 
 **"Derivative Works"** means a work based on or derived from a Component or the Compiler, where the modifications as a whole constitute an original work of authorship. It excludes works that remain separable from, or merely link or bind by name to, a Component's, the Compiler's, or a Derivative Work's interfaces. For the avoidance of doubt, a work produced by training, fine-tuning, retraining, or otherwise persistently deriving new parameters from a Component — including a LoRA adapter, delta-weight file, or similar parameter-efficient artifact — constitutes a Derivative Work of that Component where it embodies an original work of authorship, regardless of its file size, format, or the fact that it is only usable in combination with the original Component.
 
