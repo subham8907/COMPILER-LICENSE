@@ -21,7 +21,7 @@ as operative parts of its processing.
 
 **"Component or Component(s)"** means a work of authorship, in Source or Object form, made available under this License and marked as such.
 
-**"Derivative Works"** means a work based on or derived from a Component or the Compiler, where the modifications as a whole constitute an original work of authorship. It excludes works that remain separable from, or merely link or bind by name to, a Component's, the Compiler's, or a Derivative Work's interfaces. For the avoidance of doubt, a work produced by training, fine-tuning, retraining, or otherwise persistently deriving new parameters from a Component — including a LoRA adapter, delta-weight file, or similar parameter-efficient artifact — constitutes a Derivative Work of that Component where it embodies an original work of authorship, regardless of its file size, format, or the fact that it is only usable in combination with the original Component.
+**"Derivative Works"** means a work based on or derived from a Component or the Compiler, where the modifications as a whole constitute an original work of authorship. It excludes works that remain separable from, or merely link or bind by name to, a Component's, the Compiler's, or a Derivative Work's interfaces. 
 
 **"Merely link or bind by name"** includes calling a Component's documented public interfaces (function/method calls, linking, RPC, subprocess invocation, etc.) without copying its Source form and without extending or subclassing its internal (non-interface) portions. It excludes incorporating a Component's Source form into another work or modifying its internal implementation.
 
